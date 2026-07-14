@@ -21,6 +21,7 @@ dependencies {
     implementation("org.jsoup:jsoup:1.15.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
+    testImplementation(kotlin("test-junit"))
 
     api(platform("net.mamoe:mirai-bom:2.16.0"))
     api("net.mamoe:mirai-core-api")     // 编译代码使用
@@ -28,12 +29,16 @@ dependencies {
 }
 
 tasks.compileJava {
-    sourceCompatibility = JavaVersion.VERSION_11.toString()
-    targetCompatibility = JavaVersion.VERSION_11.toString()
+    sourceCompatibility = JavaVersion.VERSION_17.toString()
+    targetCompatibility = JavaVersion.VERSION_17.toString()
 }
 
 tasks.compileKotlin {
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
+}
+
+tasks.test {
+    systemProperty("java.awt.headless", "true")
 }
