@@ -1,2 +1,8 @@
-rootProject.name = "news-reporter"
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
 
+rootProject.name = "mie-news-reporter"

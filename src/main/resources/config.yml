@@ -1,0 +1,38 @@
+# 调度使用的时区。默认按中国标准时间执行每日推送。
+timeZone: "Asia/Shanghai"
+
+commands:
+  # 别名不包含开头的 /；每条指令可配置多个别名，[] 表示没有别名。
+  aliases:
+    mienr: []
+    news: []
+    timenews: []
+    getnews: []
+    anime: []
+    timeanime: []
+    getanime: []
+    help: []
+
+news:
+  # 启用今日新闻的群 ID。默认不启用，由 /mienr news 维护。
+  enabledGroups: []
+  # 未设置群独立时间时使用的每日推送小时，格式 HH（00-23）。
+  defaultTime: "10"
+  # 群独立推送小时。键必须是带引号的群 ID，值格式为 HH。
+  groupTimes: {}
+  # 未启用群使用 /mienr getnews 时的引用回复。
+  disabledMessage: "本群尚未启用今日新闻推送，请联系群管理员使用 /mienr news 开启。"
+  # 今日新闻抓取、渲染或发送准备失败时的引用回复。
+  failureMessage: "今日新闻获取失败，请稍后重试。"
+
+anime:
+  # 启用今日番剧的群 ID。默认不启用，由 /mienr anime 维护。
+  enabledGroups: []
+  # 未设置群独立时间时使用的每日推送小时，格式 HH（00-23）。
+  defaultTime: "10"
+  # 群独立推送小时。键必须是带引号的群 ID，值格式为 HH。
+  groupTimes: {}
+  # 未启用群使用 /mienr getanime 时的引用回复。
+  disabledMessage: "本群尚未启用今日番剧推送，请联系群管理员使用 /mienr anime 开启。"
+  # 今日番剧抓取、渲染或发送准备失败时的引用回复。
+  failureMessage: "今日番剧获取失败，请稍后重试。"

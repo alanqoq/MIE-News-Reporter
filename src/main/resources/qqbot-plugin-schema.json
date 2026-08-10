@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "commandAliasList": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100,
+        "pattern": "^[^/\\s]+$"
+      },
+      "maxItems": 100,
+      "uniqueItems": true
+    }
+  },
+  "type": "object",
+  "properties": {
+    "timeZone": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "commands": {
+      "type": "object",
+      "properties": {
+        "aliases": {
+          "type": "object",
+          "properties": {
+            "mienr": { "$ref": "#/$defs/commandAliasList" },
+            "news": { "$ref": "#/$defs/commandAliasList" },
+            "timenews": { "$ref": "#/$defs/commandAliasList" },
+            "getnews": { "$ref": "#/$defs/commandAliasList" },
+            "anime": { "$ref": "#/$defs/commandAliasList" },
+            "timeanime": { "$ref": "#/$defs/commandAliasList" },
+            "getanime": { "$ref": "#/$defs/commandAliasList" },
+            "help": { "$ref": "#/$defs/commandAliasList" }
+          },
+          "required": ["mienr", "news", "timenews", "getnews", "anime", "timeanime", "getanime", "help"],
+          "additionalProperties": false
+        }
+      },
+      "required": ["aliases"],
+      "additionalProperties": false
+    },
+    "news": {
+      "type": "object",
+      "properties": {
+        "enabledGroups": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 255 },
+          "maxItems": 10000
+        },
+        "defaultTime": {
+          "type": "string",
+          "pattern": "^(?:[01][0-9]|2[0-3])$"
+        },
+        "groupTimes": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "disabledMessage": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "failureMessage": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        }
+      },
+      "required": ["enabledGroups", "defaultTime", "groupTimes", "disabledMessage", "failureMessage"],
+      "additionalProperties": false
+    },
+    "anime": {
+      "type": "object",
+      "properties": {
+        "enabledGroups": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 255 },
+          "maxItems": 10000
+        },
+        "defaultTime": {
+          "type": "string",
+          "pattern": "^(?:[01][0-9]|2[0-3])$"
+        },
+        "groupTimes": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "disabledMessage": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "failureMessage": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        }
+      },
+      "required": ["enabledGroups", "defaultTime", "groupTimes", "disabledMessage", "failureMessage"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["timeZone", "news", "anime"],
+  "additionalProperties": false
+}
