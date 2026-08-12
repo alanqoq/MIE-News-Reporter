@@ -2998,45 +2998,12 @@
       "label": "additionalProperties",
       "file_type": "code",
       "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L39",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "additionalproperties",
-      "community_name": "aliases",
-      "id": "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "type",
-      "community_name": "aliases",
-      "id": "src_main_resources_qqbot_plugin_schema_aliases_type"
-    },
-    {
-      "label": "additionalProperties",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
       "source_location": "L43",
       "_origin": "ast",
       "community": 10,
       "norm_label": "additionalproperties",
-      "community_name": "aliases",
+      "community_name": "properties",
       "id": "src_main_resources_qqbot_plugin_schema_commands_additionalproperties"
-    },
-    {
-      "label": "properties",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "properties",
-      "community_name": "aliases",
-      "id": "src_main_resources_qqbot_plugin_schema_commands_properties"
     },
     {
       "label": "required",
@@ -3046,7 +3013,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "required",
-      "community_name": "aliases",
+      "community_name": "properties",
       "id": "src_main_resources_qqbot_plugin_schema_commands_required"
     },
     {
@@ -3057,19 +3024,19 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "type",
-      "community_name": "aliases",
+      "community_name": "properties",
       "id": "src_main_resources_qqbot_plugin_schema_commands_type"
     },
     {
-      "label": "aliases",
+      "label": "properties",
       "file_type": "code",
       "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L26",
+      "source_location": "L17",
       "_origin": "ast",
       "community": 10,
-      "norm_label": "aliases",
-      "community_name": "aliases",
-      "id": "src_main_resources_qqbot_plugin_schema_properties_aliases"
+      "norm_label": "properties",
+      "community_name": "properties",
+      "id": "src_main_resources_qqbot_plugin_schema_properties"
     },
     {
       "label": "commands",
@@ -3079,8 +3046,52 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "commands",
-      "community_name": "aliases",
+      "community_name": "properties",
       "id": "src_main_resources_qqbot_plugin_schema_properties_commands"
+    },
+    {
+      "label": "timeZone",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 10,
+      "norm_label": "timezone",
+      "community_name": "properties",
+      "id": "src_main_resources_qqbot_plugin_schema_properties_timezone"
+    },
+    {
+      "label": "maxLength",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 10,
+      "norm_label": "maxlength",
+      "community_name": "properties",
+      "id": "src_main_resources_qqbot_plugin_schema_timezone_maxlength"
+    },
+    {
+      "label": "minLength",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 10,
+      "norm_label": "minlength",
+      "community_name": "properties",
+      "id": "src_main_resources_qqbot_plugin_schema_timezone_minlength"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 10,
+      "norm_label": "type",
+      "community_name": "properties",
+      "id": "src_main_resources_qqbot_plugin_schema_timezone_type"
     },
     {
       "label": "aliases",
@@ -3090,7 +3101,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "aliases",
-      "community_name": "aliases",
+      "community_name": "properties",
       "id": "ref_aliases"
     },
     {
@@ -3363,28 +3374,6 @@
       "id": "src_main_resources_qqbot_plugin_schema_additionalproperties"
     },
     {
-      "label": "properties",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 18,
-      "norm_label": "properties",
-      "community_name": "qqbot-plugin-schema.json",
-      "id": "src_main_resources_qqbot_plugin_schema_properties"
-    },
-    {
-      "label": "timeZone",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 18,
-      "norm_label": "timezone",
-      "community_name": "qqbot-plugin-schema.json",
-      "id": "src_main_resources_qqbot_plugin_schema_properties_timezone"
-    },
-    {
       "label": "$schema",
       "file_type": "code",
       "source_file": "src/main/resources/qqbot-plugin-schema.json",
@@ -3396,39 +3385,6 @@
       "id": "src_main_resources_qqbot_plugin_schema_schema"
     },
     {
-      "label": "maxLength",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 18,
-      "norm_label": "maxlength",
-      "community_name": "qqbot-plugin-schema.json",
-      "id": "src_main_resources_qqbot_plugin_schema_timezone_maxlength"
-    },
-    {
-      "label": "minLength",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 18,
-      "norm_label": "minlength",
-      "community_name": "qqbot-plugin-schema.json",
-      "id": "src_main_resources_qqbot_plugin_schema_timezone_minlength"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "src/main/resources/qqbot-plugin-schema.json",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 18,
-      "norm_label": "type",
-      "community_name": "qqbot-plugin-schema.json",
-      "id": "src_main_resources_qqbot_plugin_schema_timezone_type"
-    },
-    {
       "label": "type",
       "file_type": "code",
       "source_file": "src/main/resources/qqbot-plugin-schema.json",
@@ -3438,6 +3394,50 @@
       "norm_label": "type",
       "community_name": "qqbot-plugin-schema.json",
       "id": "src_main_resources_qqbot_plugin_schema_type"
+    },
+    {
+      "label": "additionalProperties",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "additionalproperties",
+      "community_name": "aliases",
+      "id": "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "type",
+      "community_name": "aliases",
+      "id": "src_main_resources_qqbot_plugin_schema_aliases_type"
+    },
+    {
+      "label": "properties",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "properties",
+      "community_name": "aliases",
+      "id": "src_main_resources_qqbot_plugin_schema_commands_properties"
+    },
+    {
+      "label": "aliases",
+      "file_type": "code",
+      "source_file": "src/main/resources/qqbot-plugin-schema.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 19,
+      "norm_label": "aliases",
+      "community_name": "aliases",
+      "id": "src_main_resources_qqbot_plugin_schema_properties_aliases"
     },
     {
       "label": "Graphics2D",

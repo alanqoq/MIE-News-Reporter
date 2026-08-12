@@ -154,3 +154,7 @@ gradle-app.setting
 
 # test files
 test.png
+
+# Graphify local cache and in-progress lock
+graphify-out/cache/
+graphify-out/.rebuild.lock

@@ -336,14 +336,15 @@
     ],
     "10": [
       "ref_aliases",
-      "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_aliases_type",
       "src_main_resources_qqbot_plugin_schema_commands_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_commands_properties",
       "src_main_resources_qqbot_plugin_schema_commands_required",
       "src_main_resources_qqbot_plugin_schema_commands_type",
-      "src_main_resources_qqbot_plugin_schema_properties_aliases",
-      "src_main_resources_qqbot_plugin_schema_properties_commands"
+      "src_main_resources_qqbot_plugin_schema_properties",
+      "src_main_resources_qqbot_plugin_schema_properties_commands",
+      "src_main_resources_qqbot_plugin_schema_properties_timezone",
+      "src_main_resources_qqbot_plugin_schema_timezone_maxlength",
+      "src_main_resources_qqbot_plugin_schema_timezone_minlength",
+      "src_main_resources_qqbot_plugin_schema_timezone_type"
     ],
     "11": [
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger",
@@ -416,13 +417,14 @@
     "18": [
       "src_main_resources_qqbot_plugin_schema",
       "src_main_resources_qqbot_plugin_schema_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_properties",
-      "src_main_resources_qqbot_plugin_schema_properties_timezone",
       "src_main_resources_qqbot_plugin_schema_schema",
-      "src_main_resources_qqbot_plugin_schema_timezone_maxlength",
-      "src_main_resources_qqbot_plugin_schema_timezone_minlength",
-      "src_main_resources_qqbot_plugin_schema_timezone_type",
       "src_main_resources_qqbot_plugin_schema_type"
+    ],
+    "19": [
+      "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_aliases_type",
+      "src_main_resources_qqbot_plugin_schema_commands_properties",
+      "src_main_resources_qqbot_plugin_schema_properties_aliases"
     ],
     "20": [
       "src_main_resources_qqbot_plugin_schema_anime_additionalproperties",
@@ -454,7 +456,7 @@
     "7": 0.2571428571428571,
     "8": 0.15384615384615385,
     "9": 0.2,
-    "10": 0.2222222222222222,
+    "10": 0.2,
     "11": 0.26666666666666666,
     "12": 0.4,
     "13": 0.3333333333333333,
@@ -462,7 +464,8 @@
     "15": 0.47619047619047616,
     "16": 0.3333333333333333,
     "17": 0.8333333333333334,
-    "18": 0.2222222222222222,
+    "18": 0.5,
+    "19": 0.5,
     "20": 0.5,
     "21": 0.5,
     "22": 1.0,

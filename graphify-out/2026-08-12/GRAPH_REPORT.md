@@ -4,7 +4,7 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 396 nodes · 835 edges · 23 communities (20 shown, 3 thin omitted)
+- 396 nodes · 835 edges · 24 communities (21 shown, 3 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -24,7 +24,7 @@
 - MienrPluginTest
 - properties
 - required
-- aliases
+- properties
 - AutomaticDispatchLedger
 - DailyPngCache
 - OnlineImageSmoke
@@ -33,6 +33,7 @@
 - FontResource
 - gradlew
 - qqbot-plugin-schema.json
+- aliases
 - anime
 - news
 
@@ -63,7 +64,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (23 total, 3 thin omitted)
+## Communities (24 total, 3 thin omitted)
 
 ### Community 0 - "MienrConfiguration.kt"
 Cohesion: 0.09
@@ -105,9 +106,9 @@ Nodes (13): properties, $ref, $ref, $ref, $ref, getanime, getnews, help (+5 more
 Cohesion: 0.20
 Nodes (11): anime, getanime, getnews, help, mienr, news, timeanime, timenews (+3 more)
 
-### Community 10 - "aliases"
-Cohesion: 0.22
-Nodes (9): aliases, additionalProperties, type, additionalProperties, properties, required, type, aliases (+1 more)
+### Community 10 - "properties"
+Cohesion: 0.20
+Nodes (10): aliases, additionalProperties, required, type, properties, commands, timeZone, maxLength (+2 more)
 
 ### Community 12 - "DailyPngCache"
 Cohesion: 0.40
@@ -126,8 +127,12 @@ Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
 ### Community 18 - "qqbot-plugin-schema.json"
-Cohesion: 0.22
-Nodes (8): additionalProperties, properties, timeZone, $schema, maxLength, minLength, type, type
+Cohesion: 0.50
+Nodes (3): additionalProperties, $schema, type
+
+### Community 19 - "aliases"
+Cohesion: 0.50
+Nodes (4): additionalProperties, type, properties, aliases
 
 ### Community 20 - "anime"
 Cohesion: 0.50
@@ -141,6 +146,12 @@ Nodes (4): additionalProperties, $ref, type, news
 - **57 isolated node(s):** `Help`, `ContentTestAnchor`, `ANIME`, `NEWS`, `additionalProperties` (+52 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+
+## Work-memory lessons
+
+**Preferred sources** — corroborated by past sessions; start here.
+- `OutboxJob` (2× useful, score=1.974810439) _(code changed — re-verify)_
+- `Pf4jPluginHost` (2× useful, score=1.974810439) _(code changed — re-verify)_
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
