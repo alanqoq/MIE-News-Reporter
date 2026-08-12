@@ -1,11 +1,10 @@
 package com.mieai.qqbot.plugin.mienr.content
 
+import com.mieai.qqbot.plugin.mienr.writeFileAtomically
 import java.io.ByteArrayInputStream
-import java.nio.file.AtomicMoveNotSupportedException
 import java.nio.file.Files
 import java.nio.file.LinkOption
 import java.nio.file.Path
-import java.nio.file.StandardCopyOption
 import javax.imageio.ImageIO
 
 internal class DailyPngCache(
@@ -34,25 +33,8 @@ internal class DailyPngCache(
 
     fun write(dateKey: String, bytes: ByteArray) {
         require(bytes.hasPngSignature()) { "cache content must be a PNG image" }
-        Files.createDirectories(directory)
-
         val target = target(dateKey)
-        val temporary = Files.createTempFile(directory, ".$prefix-$dateKey-", ".tmp")
-        try {
-            Files.write(temporary, bytes)
-            try {
-                Files.move(
-                    temporary,
-                    target,
-                    StandardCopyOption.ATOMIC_MOVE,
-                    StandardCopyOption.REPLACE_EXISTING,
-                )
-            } catch (_: AtomicMoveNotSupportedException) {
-                Files.move(temporary, target, StandardCopyOption.REPLACE_EXISTING)
-            }
-        } finally {
-            Files.deleteIfExists(temporary)
-        }
+        writeFileAtomically(target, bytes)
 
         deleteOldFiles(target)
     }

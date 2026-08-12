@@ -12,7 +12,6 @@ import java.awt.RenderingHints
 import java.awt.image.BufferedImage
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
-import java.io.InputStream
 import java.net.URI
 import java.nio.ByteBuffer
 import java.nio.charset.CodingErrorAction
@@ -31,7 +30,7 @@ import javax.imageio.ImageIO
 import kotlin.math.roundToInt
 
 /** Fetches, renders, and persistently caches the current anime-schedule image. */
-class AnimeContentService @JvmOverloads constructor(
+class AnimeContentService(
     dataDirectory: Path,
     private val zoneId: ZoneId,
     private val clock: Clock,
@@ -40,28 +39,6 @@ class AnimeContentService @JvmOverloads constructor(
     private val endpoint: URI = DEFAULT_ENDPOINT,
     private val executor: Executor = ForkJoinPool.commonPool(),
 ) {
-    constructor(
-        dataDirectory: Path,
-        zoneId: ZoneId,
-        httpClient: PluginHttpClient,
-        fontResource: FontResource,
-    ) : this(dataDirectory, zoneId, Clock.system(zoneId), httpClient, fontResource)
-
-    constructor(
-        dataDirectory: Path,
-        clock: Clock,
-        httpClient: PluginHttpClient,
-        fontResource: FontResource,
-    ) : this(dataDirectory, clock.zone, clock, httpClient, fontResource)
-
-    constructor(
-        dataDirectory: Path,
-        zoneId: ZoneId,
-        clock: Clock,
-        httpClient: PluginHttpClient,
-        fontResource: InputStream,
-    ) : this(dataDirectory, zoneId, clock, httpClient, FontResource.fromInputStream(fontResource))
-
     private val cache = DailyPngCache(dataDirectory, CACHE_PREFIX)
     private val requestLock = Any()
 
@@ -101,9 +78,6 @@ class AnimeContentService @JvmOverloads constructor(
     fun cleanupExpiredImages() {
         cache.deleteOld(todayKey())
     }
-
-    /** Compatibility alias for callers that use the old crawler vocabulary. */
-    fun animeToday(): CompletionStage<ByteArray> = todayImage()
 
     private fun todayKey(): String = LocalDate.now(clock.withZone(zoneId)).format(DATE_FORMAT)
 

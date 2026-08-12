@@ -1,8 +1,8 @@
 {
   "build.gradle.kts": {
-    "mtime": 1786292700.8598945,
-    "ast_hash": "0cddeb115a5d5e66bffed2bfa5af0c46",
-    "semantic_hash": "0cddeb115a5d5e66bffed2bfa5af0c46"
+    "mtime": 1786533242.3249848,
+    "ast_hash": "66924ac5932a1a8e83d22764d07c1214",
+    "semantic_hash": "66924ac5932a1a8e83d22764d07c1214"
   },
   "gradlew": {
     "mtime": 1786161577.1927986,
@@ -19,25 +19,10 @@
     "ast_hash": "148eae38645e5e6f23e0883b12a0b697",
     "semantic_hash": ""
   },
-  "graphify-out/memory/query_20260802_162514_\u786e\u8ba4\u5e76\u4fee\u590d_miebot_pf4j_\u5171\u4eab_api_classloader_\u51b2\u7a81_\u4f7f\u5916\u90e8\u63d2\u4ef6\u76f4\u63a5\u6784\u9020.md": {
-    "mtime": 1786380610.0,
-    "ast_hash": "dc5f50d07e3abf224f1e9f0aba156ef5",
-    "semantic_hash": ""
-  },
-  "graphify-out/memory/query_20260802_165044_\u8be5\u66f4\u65b0\u662f\u5426\u9700\u8981\u6d89\u53ca\u5230\u7236\u52a0\u8f7d\u5668\u7684\u63d2\u4ef6\u8fdb\u884c\u66f4\u65b0\u9002\u914d.md": {
-    "mtime": 1786380610.0,
-    "ast_hash": "690a7505cbff6b060a804dfd98a8c20a",
-    "semantic_hash": ""
-  },
-  "graphify-out/memory/query_20260802_203014_trace_the_mieai_pf4j_outbound_failure_from_class_l.md": {
-    "mtime": 1786380610.0,
-    "ast_hash": "ff30ccd4822babef3ec8767054971fe5",
-    "semantic_hash": ""
-  },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/AutomaticDispatchLedger.kt": {
-    "mtime": 1786164352.3407445,
-    "ast_hash": "36995934a2fbdab729cbbc5767118399",
-    "semantic_hash": "36995934a2fbdab729cbbc5767118399"
+    "mtime": 1786533242.2912378,
+    "ast_hash": "6232ec2cfeca7e30bf53f3b4a4a13b83",
+    "semantic_hash": "6232ec2cfeca7e30bf53f3b4a4a13b83"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/MienrCommand.kt": {
     "mtime": 1786291205.921202,
@@ -45,34 +30,34 @@
     "semantic_hash": "697cbaa629f8c5da426db577c96c5f09"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/MienrConfiguration.kt": {
-    "mtime": 1786291468.2687075,
-    "ast_hash": "e4d0782e15e282fda0754cd16021811d",
-    "semantic_hash": "e4d0782e15e282fda0754cd16021811d"
+    "mtime": 1786533242.2675352,
+    "ast_hash": "da66431199478188544c05b71176ef97",
+    "semantic_hash": "da66431199478188544c05b71176ef97"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginFactory.kt": {
-    "mtime": 1786291205.9503317,
-    "ast_hash": "b3f6ff97719f9ec643cf5ec3af54debe",
-    "semantic_hash": "b3f6ff97719f9ec643cf5ec3af54debe"
+    "mtime": 1786533041.3959706,
+    "ast_hash": "fd0a3e7ee95078a48f86390c4a01e73d",
+    "semantic_hash": "fd0a3e7ee95078a48f86390c4a01e73d"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/AnimeContentService.kt": {
-    "mtime": 1786275917.5304713,
-    "ast_hash": "af7bdcff687525f962eb0f91ba654562",
-    "semantic_hash": "af7bdcff687525f962eb0f91ba654562"
+    "mtime": 1786533041.3711686,
+    "ast_hash": "b0ca9df4a2263565b3d0d3f14abce28a",
+    "semantic_hash": "b0ca9df4a2263565b3d0d3f14abce28a"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/DailyPngCache.kt": {
-    "mtime": 1786163386.0248413,
-    "ast_hash": "6f61ff3a7cd9b91b676ccd20f13c0ef8",
-    "semantic_hash": "6f61ff3a7cd9b91b676ccd20f13c0ef8"
+    "mtime": 1786533242.3149488,
+    "ast_hash": "b089eb7217a9fa8fccad34524042d270",
+    "semantic_hash": "b089eb7217a9fa8fccad34524042d270"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/FontResource.kt": {
-    "mtime": 1786162676.8692117,
-    "ast_hash": "7e06727eeff1dbee0ce69438919dda83",
-    "semantic_hash": "7e06727eeff1dbee0ce69438919dda83"
+    "mtime": 1786533041.3311665,
+    "ast_hash": "3438a485447844b51ef2a4eafcf7c9de",
+    "semantic_hash": "3438a485447844b51ef2a4eafcf7c9de"
   },
   "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/NewsContentService.kt": {
-    "mtime": 1786275917.5023372,
-    "ast_hash": "a4be4029c46908cbd2a0f0e6f3b9f135",
-    "semantic_hash": "a4be4029c46908cbd2a0f0e6f3b9f135"
+    "mtime": 1786533041.3519795,
+    "ast_hash": "b039a781024ba8daf949a720e43aeee2",
+    "semantic_hash": "b039a781024ba8daf949a720e43aeee2"
   },
   "src/main/resources/qqbot-plugin-schema.json": {
     "mtime": 1786291395.9610572,
@@ -153,5 +138,10 @@
     "mtime": 1786284916.3727267,
     "ast_hash": "b2463894bed0d1aa7750dac38cf73622",
     "semantic_hash": ""
+  },
+  "src/main/kotlin/com/mieai/qqbot/plugin/mienr/AtomicFile.kt": {
+    "mtime": 1786533003.3256257,
+    "ast_hash": "77027aca61cd3a52cbf76970bc36c404",
+    "semantic_hash": "77027aca61cd3a52cbf76970bc36c404"
   }
 }

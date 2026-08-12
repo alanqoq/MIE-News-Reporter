@@ -4,15 +4,8 @@ import org.yaml.snakeyaml.LoaderOptions
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.SafeConstructor
 import org.yaml.snakeyaml.error.YAMLException
-import java.io.IOException
-import java.nio.ByteBuffer
-import java.nio.channels.FileChannel
 import java.nio.charset.StandardCharsets
-import java.nio.file.AtomicMoveNotSupportedException
-import java.nio.file.Files
 import java.nio.file.Path
-import java.nio.file.StandardCopyOption
-import java.nio.file.StandardOpenOption
 import java.time.DateTimeException
 import java.time.ZoneId
 import java.util.Collections
@@ -400,11 +393,8 @@ object MienrConfigurationCodec {
         }
     }
 
-    private fun Map<*, *>.mapping(key: String): Map<*, *> = this[key] as? Map<*, *>
-        ?: throw MienrConfigurationException("$key must be a YAML mapping")
-
-    private fun Map<*, *>.mapping(key: String, prefix: String): Map<*, *> = this[key] as? Map<*, *>
-        ?: throw MienrConfigurationException("$prefix.$key must be a YAML mapping")
+    private fun Map<*, *>.mapping(key: String, prefix: String? = null): Map<*, *> = this[key] as? Map<*, *>
+        ?: throw MienrConfigurationException("${prefix?.let { "$it." }.orEmpty()}$key must be a YAML mapping")
 
     private fun Map<*, *>.string(key: String, prefix: String? = null): String = this[key] as? String
         ?: throw MienrConfigurationException("${prefix?.let { "$it." }.orEmpty()}$key must be a string")
@@ -469,7 +459,7 @@ class MienrConfigurationStore private constructor(
 
     fun update(transform: (MienrConfiguration) -> MienrConfiguration): MienrConfiguration = writeLock.withLock {
         val next = transform(current.get()).immutableCopy()
-        writeAtomically(configurationFile, MienrConfigurationCodec.render(next))
+        writeFileAtomically(configurationFile, MienrConfigurationCodec.render(next).toByteArray(StandardCharsets.UTF_8))
         current.set(next)
         next
     }
@@ -479,41 +469,6 @@ class MienrConfigurationStore private constructor(
         fun open(configurationFile: Path, configurationContent: String): MienrConfigurationStore =
             MienrConfigurationStore(configurationFile, MienrConfigurationCodec.parse(configurationContent))
 
-        @JvmStatic
-        fun load(configurationFile: Path): MienrConfigurationStore {
-            val normalized = configurationFile.toAbsolutePath().normalize()
-            return open(normalized, Files.readString(normalized, StandardCharsets.UTF_8))
-        }
-
-        private fun writeAtomically(target: Path, content: String) {
-            val parent = target.parent ?: throw IOException("configuration file must have a parent directory")
-            Files.createDirectories(parent)
-            val temporary = Files.createTempFile(parent, ".${target.fileName}.", ".tmp")
-            try {
-                val bytes = content.toByteArray(StandardCharsets.UTF_8)
-                FileChannel.open(
-                    temporary,
-                    StandardOpenOption.WRITE,
-                    StandardOpenOption.TRUNCATE_EXISTING,
-                ).use { channel ->
-                    val buffer = ByteBuffer.wrap(bytes)
-                    while (buffer.hasRemaining()) channel.write(buffer)
-                    channel.force(true)
-                }
-                try {
-                    Files.move(
-                        temporary,
-                        target,
-                        StandardCopyOption.ATOMIC_MOVE,
-                        StandardCopyOption.REPLACE_EXISTING,
-                    )
-                } catch (_: AtomicMoveNotSupportedException) {
-                    Files.move(temporary, target, StandardCopyOption.REPLACE_EXISTING)
-                }
-            } finally {
-                Files.deleteIfExists(temporary)
-            }
-        }
     }
 }
 

@@ -2,15 +2,10 @@ package com.mieai.qqbot.plugin.mienr
 
 import com.mieai.qqbot.plugin.api.PluginLogger
 import java.io.ByteArrayOutputStream
-import java.nio.ByteBuffer
-import java.nio.channels.FileChannel
 import java.nio.charset.StandardCharsets
-import java.nio.file.AtomicMoveNotSupportedException
 import java.nio.file.Files
 import java.nio.file.LinkOption
 import java.nio.file.Path
-import java.nio.file.StandardCopyOption
-import java.nio.file.StandardOpenOption
 import java.time.LocalDate
 import java.util.Base64
 import java.util.Properties
@@ -63,39 +58,13 @@ internal class AutomaticDispatchLedger(
     }
 
     private fun writeAtomically() {
-        val parent = stateFile.parent ?: error("automatic dispatch state must have a parent directory")
-        Files.createDirectories(parent)
         val properties = Properties()
         sentDates.toSortedMap().forEach { (key, date) -> properties.setProperty(key, date.toString()) }
         val bytes = ByteArrayOutputStream().use { output ->
             properties.store(output, "MIE News Reporter automatic dispatch state")
             output.toByteArray()
         }
-
-        val temporary = Files.createTempFile(parent, ".${stateFile.fileName}.", ".tmp")
-        try {
-            FileChannel.open(
-                temporary,
-                StandardOpenOption.WRITE,
-                StandardOpenOption.TRUNCATE_EXISTING,
-            ).use { channel ->
-                val buffer = ByteBuffer.wrap(bytes)
-                while (buffer.hasRemaining()) channel.write(buffer)
-                channel.force(true)
-            }
-            try {
-                Files.move(
-                    temporary,
-                    stateFile,
-                    StandardCopyOption.ATOMIC_MOVE,
-                    StandardCopyOption.REPLACE_EXISTING,
-                )
-            } catch (_: AtomicMoveNotSupportedException) {
-                Files.move(temporary, stateFile, StandardCopyOption.REPLACE_EXISTING)
-            }
-        } finally {
-            Files.deleteIfExists(temporary)
-        }
+        writeFileAtomically(stateFile, bytes)
     }
 
     private fun key(kind: ReportKind, groupId: String): String {

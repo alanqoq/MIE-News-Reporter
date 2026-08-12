@@ -311,12 +311,11 @@ internal class MienrPlugin(
         content = configuration.snapshot().report(kind).failureMessage,
         event = event,
         referenceTag = "failure-${kind.name.lowercase()}",
-        explicitReference = true,
     )
 
     private fun sendQuotedText(event: PluginEvent, content: String, tag: String): CompletionStage<Void> {
         val inbound = event.message ?: return completedVoid()
-        return sendText(inbound.replyTarget, content, event, tag, explicitReference = true)
+        return sendText(inbound.replyTarget, content, event, tag)
     }
 
     private fun sendText(
@@ -324,7 +323,6 @@ internal class MienrPlugin(
         content: String,
         event: PluginEvent?,
         referenceTag: String,
-        explicitReference: Boolean,
     ): CompletionStage<Void> {
         val inbound = event?.message
         val message = TextMessage(
@@ -335,7 +333,7 @@ internal class MienrPlugin(
             deduplicationKey = event?.let { "mienr:text:$referenceTag:${it.id}" },
             sourceEventId = event?.id,
         )
-        return enqueueText(message, if (explicitReference) inbound?.messageId else null)
+        return enqueueText(message, inbound?.messageId)
     }
 
     private fun enqueueText(message: TextMessage, referenceMessageId: String?): CompletionStage<Void> {

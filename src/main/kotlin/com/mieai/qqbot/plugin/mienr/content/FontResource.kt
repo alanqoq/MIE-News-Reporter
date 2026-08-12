@@ -1,6 +1,5 @@
 package com.mieai.qqbot.plugin.mienr.content
 
-import java.io.ByteArrayInputStream
 import java.io.InputStream
 
 /** Opens a fresh stream for a font bundled in the plugin JAR. */
@@ -16,21 +15,6 @@ fun interface FontResource {
                 anchor.getResourceAsStream(resourcePath)
                     ?: throw ContentRenderException("Missing bundled font resource: $resourcePath")
             }
-        }
-
-        /** Adapts one stream (read eagerly) to the repeatable resource contract. */
-        @JvmStatic
-        fun fromInputStream(stream: InputStream): FontResource {
-            val bytes = stream.use { it.readBytes() }
-            require(bytes.isNotEmpty()) { "font resource must not be empty" }
-            return FontResource { ByteArrayInputStream(bytes) }
-        }
-
-        @JvmStatic
-        fun fromBytes(bytes: ByteArray): FontResource {
-            require(bytes.isNotEmpty()) { "font resource must not be empty" }
-            val copy = bytes.clone()
-            return FontResource { ByteArrayInputStream(copy) }
         }
     }
 }

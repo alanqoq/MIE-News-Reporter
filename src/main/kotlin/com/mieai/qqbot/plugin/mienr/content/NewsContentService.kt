@@ -11,7 +11,6 @@ import java.awt.FontMetrics
 import java.awt.RenderingHints
 import java.awt.image.BufferedImage
 import java.io.ByteArrayOutputStream
-import java.io.InputStream
 import java.net.URI
 import java.nio.charset.CodingErrorAction
 import java.nio.charset.StandardCharsets
@@ -28,7 +27,7 @@ import java.util.concurrent.ForkJoinPool
 import javax.imageio.ImageIO
 
 /** Fetches, renders, and persistently caches the current daily-news image. */
-class NewsContentService @JvmOverloads constructor(
+class NewsContentService(
     dataDirectory: Path,
     private val zoneId: ZoneId,
     private val clock: Clock,
@@ -37,28 +36,6 @@ class NewsContentService @JvmOverloads constructor(
     private val endpoint: URI = DEFAULT_ENDPOINT,
     private val executor: Executor = ForkJoinPool.commonPool(),
 ) {
-    constructor(
-        dataDirectory: Path,
-        zoneId: ZoneId,
-        httpClient: PluginHttpClient,
-        fontResource: FontResource,
-    ) : this(dataDirectory, zoneId, Clock.system(zoneId), httpClient, fontResource)
-
-    constructor(
-        dataDirectory: Path,
-        clock: Clock,
-        httpClient: PluginHttpClient,
-        fontResource: FontResource,
-    ) : this(dataDirectory, clock.zone, clock, httpClient, fontResource)
-
-    constructor(
-        dataDirectory: Path,
-        zoneId: ZoneId,
-        clock: Clock,
-        httpClient: PluginHttpClient,
-        fontResource: InputStream,
-    ) : this(dataDirectory, zoneId, clock, httpClient, FontResource.fromInputStream(fontResource))
-
     private val cache = DailyPngCache(dataDirectory, CACHE_PREFIX)
     private val requestLock = Any()
 
@@ -98,9 +75,6 @@ class NewsContentService @JvmOverloads constructor(
     fun cleanupExpiredImages() {
         cache.deleteOld(todayKey())
     }
-
-    /** Compatibility alias for callers that use the old crawler vocabulary. */
-    fun newsToday(): CompletionStage<ByteArray> = todayImage()
 
     private fun todayKey(): String = LocalDate.now(clock.withZone(zoneId)).format(DATE_FORMAT)
 

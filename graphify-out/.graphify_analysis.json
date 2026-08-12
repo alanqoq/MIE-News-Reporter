@@ -34,16 +34,17 @@
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationexception",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_isenabled",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_load",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_open",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_scheduledhour",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_setgrouphour",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_snapshot",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_toggle",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_update",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_mienrconfigurationstore_writeatomically",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportconfiguration",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportconfiguration_immutablecopy",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind_anime",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind_news",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_requireconfiguration",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_unsupportedcontrol",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_validatecommandalias",
@@ -65,9 +66,6 @@
       "messagetarget",
       "pluginruntimecontext",
       "plugintask",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind_anime",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind_news",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_dailyimageprovider",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_dailyimageprovider_cleanupexpiredimages",
@@ -114,7 +112,6 @@
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentexception",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_animetoday",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_cleanupexpiredimages",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_decodecover",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_fetchcovers",
@@ -151,7 +148,10 @@
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_useanimegraphics",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_contentrenderexception",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_contentserviceexception"
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_contentserviceexception",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_classpath",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_open"
     ],
     "3": [
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand",
@@ -223,15 +223,38 @@
       "t"
     ],
     "5": [
+      "fontmetrics",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_datedrequest",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_decodeutf8",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_bytearray",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_datedrequest",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_font",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_pluginhttpresponse",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_r",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_uri",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentexception",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_cleanupexpiredimages",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_displaydate",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_fetchnews",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_parseresponse",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_persistifcurrentday",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_render",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_startrequest",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_startrequestsafely",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_todayimage",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_todaykey",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_wraptext",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredint",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredstring",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_usegraphics"
+    ],
+    "6": [
       "src_main_resources_qqbot_plugin_schema_anime_properties",
       "src_main_resources_qqbot_plugin_schema_commandaliaslist_items",
-      "src_main_resources_qqbot_plugin_schema_commandaliaslist_maxitems",
-      "src_main_resources_qqbot_plugin_schema_commandaliaslist_type",
-      "src_main_resources_qqbot_plugin_schema_commandaliaslist_uniqueitems",
       "src_main_resources_qqbot_plugin_schema_defaulttime_pattern",
       "src_main_resources_qqbot_plugin_schema_defaulttime_type",
-      "src_main_resources_qqbot_plugin_schema_defs",
-      "src_main_resources_qqbot_plugin_schema_defs_commandaliaslist",
       "src_main_resources_qqbot_plugin_schema_disabledmessage_maxlength",
       "src_main_resources_qqbot_plugin_schema_disabledmessage_minlength",
       "src_main_resources_qqbot_plugin_schema_disabledmessage_type",
@@ -254,36 +277,32 @@
       "src_main_resources_qqbot_plugin_schema_properties_failuremessage",
       "src_main_resources_qqbot_plugin_schema_properties_grouptimes"
     ],
-    "6": [
-      "fontmetrics",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_datedrequest",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_decodeutf8",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_bytearray",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_datedrequest",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_font",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_pluginhttpresponse",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_r",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_uri",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentexception",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_cleanupexpiredimages",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_displaydate",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_fetchnews",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_newstoday",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_parseresponse",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_persistifcurrentday",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_render",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_startrequest",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_startrequestsafely",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_todayimage",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_todaykey",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_wraptext",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredint",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredstring",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_usegraphics"
-    ],
     "7": [
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_atomicfile",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_atomicfile_kt_bytearray",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_atomicfile_writefileatomically",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_key",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_load",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_marksent",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_wassent",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_writeatomically",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_deleteold",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_deleteoldfiles",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_read",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_target",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_write",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_haspngsignature",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_isreadablepng",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_kt_bytearray",
+      "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest",
+      "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest",
+      "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest_successful_date_survives_restart_and_an_older_completion_cannot_replace_it"
+    ],
+    "8": [
       "groupmemberrole",
       "plugintestcontext",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest",
@@ -306,7 +325,7 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_service_loader_discovers_a_startable_mienr_factory",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_testclock"
     ],
-    "8": [
+    "9": [
       "src_main_resources_qqbot_plugin_schema_aliases_properties",
       "src_main_resources_qqbot_plugin_schema_getanime_ref",
       "src_main_resources_qqbot_plugin_schema_getnews_ref",
@@ -321,7 +340,7 @@
       "src_main_resources_qqbot_plugin_schema_timeanime_ref",
       "src_main_resources_qqbot_plugin_schema_timenews_ref"
     ],
-    "9": [
+    "10": [
       "ref_anime",
       "ref_getanime",
       "ref_getnews",
@@ -334,42 +353,7 @@
       "src_main_resources_qqbot_plugin_schema_aliases_required",
       "src_main_resources_qqbot_plugin_schema_required"
     ],
-    "10": [
-      "ref_aliases",
-      "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_aliases_type",
-      "src_main_resources_qqbot_plugin_schema_commands_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_commands_properties",
-      "src_main_resources_qqbot_plugin_schema_commands_required",
-      "src_main_resources_qqbot_plugin_schema_commands_type",
-      "src_main_resources_qqbot_plugin_schema_properties_aliases",
-      "src_main_resources_qqbot_plugin_schema_properties_commands"
-    ],
     "11": [
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_key",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_load",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_marksent",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_wassent",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_writeatomically",
-      "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest",
-      "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest",
-      "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest_successful_date_survives_restart_and_an_older_completion_cannot_replace_it"
-    ],
-    "12": [
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_deleteold",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_deleteoldfiles",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_read",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_target",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_write",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_haspngsignature",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_isreadablepng",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_kt_bytearray"
-    ],
-    "13": [
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_jdkpluginhttpclient",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_jdkpluginhttpclient_send",
@@ -381,7 +365,40 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_generate",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_main"
     ],
+    "12": [
+      "ref_aliases",
+      "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_aliases_type",
+      "src_main_resources_qqbot_plugin_schema_commands_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_commands_properties",
+      "src_main_resources_qqbot_plugin_schema_commands_required",
+      "src_main_resources_qqbot_plugin_schema_commands_type",
+      "src_main_resources_qqbot_plugin_schema_properties_aliases",
+      "src_main_resources_qqbot_plugin_schema_properties_commands"
+    ],
+    "13": [
+      "src_main_resources_qqbot_plugin_schema",
+      "src_main_resources_qqbot_plugin_schema_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_commandaliaslist_maxitems",
+      "src_main_resources_qqbot_plugin_schema_commandaliaslist_type",
+      "src_main_resources_qqbot_plugin_schema_commandaliaslist_uniqueitems",
+      "src_main_resources_qqbot_plugin_schema_defs",
+      "src_main_resources_qqbot_plugin_schema_defs_commandaliaslist",
+      "src_main_resources_qqbot_plugin_schema_schema",
+      "src_main_resources_qqbot_plugin_schema_type"
+    ],
     "14": [
+      "src_main_resources_qqbot_plugin_schema_anime_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_anime_ref",
+      "src_main_resources_qqbot_plugin_schema_anime_type",
+      "src_main_resources_qqbot_plugin_schema_properties",
+      "src_main_resources_qqbot_plugin_schema_properties_anime",
+      "src_main_resources_qqbot_plugin_schema_properties_timezone",
+      "src_main_resources_qqbot_plugin_schema_timezone_maxlength",
+      "src_main_resources_qqbot_plugin_schema_timezone_minlength",
+      "src_main_resources_qqbot_plugin_schema_timezone_type"
+    ],
+    "15": [
       "ref_defaulttime",
       "ref_disabledmessage",
       "ref_enabledgroups",
@@ -390,7 +407,7 @@
       "src_main_resources_qqbot_plugin_schema_anime_required",
       "src_main_resources_qqbot_plugin_schema_news_required"
     ],
-    "15": [
+    "16": [
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_default_resource_is_valid_and_disables_every_group",
@@ -399,14 +416,6 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_rejects_malformed_hours_duplicate_keys_and_unknown_time_zones",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_rejects_unsafe_conflicting_and_incomplete_aliases"
     ],
-    "16": [
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_classpath",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_frombytes",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_frominputstream",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_open",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_kt_bytearray"
-    ],
     "17": [
       "gradlew",
       "gradlew__entry",
@@ -414,75 +423,56 @@
       "gradlew_warn"
     ],
     "18": [
-      "src_main_resources_qqbot_plugin_schema",
-      "src_main_resources_qqbot_plugin_schema_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_properties",
-      "src_main_resources_qqbot_plugin_schema_properties_timezone",
-      "src_main_resources_qqbot_plugin_schema_schema",
-      "src_main_resources_qqbot_plugin_schema_timezone_maxlength",
-      "src_main_resources_qqbot_plugin_schema_timezone_minlength",
-      "src_main_resources_qqbot_plugin_schema_timezone_type",
-      "src_main_resources_qqbot_plugin_schema_type"
-    ],
-    "20": [
-      "src_main_resources_qqbot_plugin_schema_anime_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_anime_ref",
-      "src_main_resources_qqbot_plugin_schema_anime_type",
-      "src_main_resources_qqbot_plugin_schema_properties_anime"
-    ],
-    "21": [
       "src_main_resources_qqbot_plugin_schema_news_additionalproperties",
       "src_main_resources_qqbot_plugin_schema_news_ref",
       "src_main_resources_qqbot_plugin_schema_news_type",
       "src_main_resources_qqbot_plugin_schema_properties_news"
     ],
-    "22": [
+    "19": [
       "build_gradle"
     ],
-    "23": [
+    "20": [
       "settings_gradle"
     ]
   },
   "cohesion": {
-    "0": 0.09494949494949495,
-    "1": 0.10629251700680271,
-    "2": 0.12624584717607973,
+    "0": 0.09545454545454546,
+    "1": 0.1111111111111111,
+    "2": 0.11616161616161616,
     "3": 0.10873440285204991,
     "4": 0.12473118279569892,
-    "5": 0.08045977011494253,
-    "6": 0.16524216524216523,
-    "7": 0.2571428571428571,
-    "8": 0.15384615384615385,
-    "9": 0.2,
-    "10": 0.2222222222222222,
-    "11": 0.26666666666666666,
-    "12": 0.4,
-    "13": 0.3333333333333333,
-    "14": 0.47619047619047616,
+    "5": 0.16923076923076924,
+    "6": 0.1,
+    "7": 0.1383399209486166,
+    "8": 0.2571428571428571,
+    "9": 0.15384615384615385,
+    "10": 0.2,
+    "11": 0.3333333333333333,
+    "12": 0.2222222222222222,
+    "13": 0.2222222222222222,
+    "14": 0.2222222222222222,
     "15": 0.47619047619047616,
-    "16": 0.3333333333333333,
+    "16": 0.47619047619047616,
     "17": 0.8333333333333334,
-    "18": 0.2222222222222222,
-    "20": 0.5,
-    "21": 0.5,
-    "22": 1.0,
-    "23": 1.0
+    "18": 0.5,
+    "19": 1.0,
+    "20": 1.0
   },
   "gods": [
-    {
-      "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice",
-      "label": "AnimeContentService",
-      "degree": 31
-    },
     {
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin",
       "label": "MienrPlugin",
       "degree": 30
     },
     {
+      "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice",
+      "label": "AnimeContentService",
+      "degree": 30
+    },
+    {
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice",
       "label": "NewsContentService",
-      "degree": 25
+      "degree": 24
     },
     {
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind",
@@ -534,17 +524,6 @@
     },
     {
       "source": "NewsContentService",
-      "target": "DailyPngCache",
-      "source_files": [
-        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/NewsContentService.kt",
-        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/DailyPngCache.kt"
-      ],
-      "confidence": "INFERRED",
-      "relation": "calls",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
-    },
-    {
-      "source": "NewsContentService",
       "target": "ContentRenderException",
       "source_files": [
         "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/NewsContentService.kt",
@@ -555,15 +534,15 @@
       "why": "inferred connection - not explicitly stated in source; bridges separate communities"
     },
     {
-      "source": "bundledTestFont()",
-      "target": "FontResource",
+      "source": "NewsContentService",
+      "target": "DailyPngCache",
       "source_files": [
-        "src/test/kotlin/com/mieai/qqbot/plugin/mienr/content/ContentTestSupport.kt",
-        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/FontResource.kt"
+        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/NewsContentService.kt",
+        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/DailyPngCache.kt"
       ],
-      "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "bridges separate communities"
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
     },
     {
       "source": "AnimeContentService",
@@ -575,33 +554,44 @@
       "confidence": "INFERRED",
       "relation": "calls",
       "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "NewsContentException",
+      "target": "ContentServiceException",
+      "source_files": [
+        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/NewsContentService.kt",
+        "src/main/kotlin/com/mieai/qqbot/plugin/mienr/content/FontResource.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities"
     }
   ],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `ReportKind` connect `MienrPlugin` to `CommandAliases`, `MienrConfiguration.kt`, `AutomaticDispatchLedger`?",
-      "why": "High betweenness centrality (0.290) - this node is a cross-community bridge."
+      "question": "Why does `ReportKind` connect `MienrConfiguration.kt` to `MienrPlugin`, `CommandAliases`, `DailyPngCache`?",
+      "why": "High betweenness centrality (0.243) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `AnimeContentService` connect `AnimeContentService` to `MienrPlugin`, `OnlineImageSmoke`, `ContentTestSupport.kt`, `DailyPngCache`?",
+      "why": "High betweenness centrality (0.169) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
       "question": "Why does `MienrPlugin` connect `MienrPlugin` to `MienrPluginTest`?",
-      "why": "High betweenness centrality (0.187) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `AnimeContentService` connect `AnimeContentService` to `MienrPlugin`, `OnlineImageSmoke`, `DailyPngCache`, `ContentTestSupport.kt`?",
-      "why": "High betweenness centrality (0.175) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 6 inferred relationships involving `AnimeContentService` (e.g. with `DailyPngCache` and `ContentRenderException`) actually correct?",
-      "why": "`AnimeContentService` has 6 INFERRED edges - model-reasoned connections that need verification."
+      "why": "High betweenness centrality (0.161) - this node is a cross-community bridge."
     },
     {
       "type": "verify_inferred",
       "question": "Are the 5 inferred relationships involving `MienrPlugin` (e.g. with `.`configured aliases execute through the plugin entry point`()` and `.`disabled get commands quote the matching configured reminder`()`) actually correct?",
       "why": "`MienrPlugin` has 5 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 6 inferred relationships involving `AnimeContentService` (e.g. with `DailyPngCache` and `ContentRenderException`) actually correct?",
+      "why": "`AnimeContentService` has 6 INFERRED edges - model-reasoned connections that need verification."
     },
     {
       "type": "verify_inferred",
