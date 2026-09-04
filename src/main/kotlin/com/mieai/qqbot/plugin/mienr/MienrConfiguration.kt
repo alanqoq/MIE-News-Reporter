@@ -235,6 +235,18 @@ object MienrConfigurationCodec {
         appendLine("  # 别名不包含开头的 /；每条指令可配置多个别名，[] 表示没有别名。")
         appendLine("  aliases:")
         commands.aliases.entries().forEach { (command, aliases) ->
+            val description = when (command) {
+                "mienr" -> "主指令前缀，可替代 /mienr 后继续使用子指令。"
+                "news" -> "开启或关闭本群今日新闻推送（管理员/群主）。"
+                "timenews" -> "设置本群新闻推送小时，参数 HH（00-23，管理员/群主）。"
+                "getnews" -> "获取本群今日新闻。"
+                "anime" -> "开启或关闭本群今日番剧推送（管理员/群主）。"
+                "timeanime" -> "设置本群番剧推送小时，参数 HH（00-23，管理员/群主）。"
+                "getanime" -> "获取本群今日番剧。"
+                "help" -> "查看帮助。"
+                else -> error("unknown command alias key: $command")
+            }
+            appendLine("    # $description")
             if (aliases.isEmpty()) {
                 appendLine("    $command: []")
             } else {
