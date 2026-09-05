@@ -17,9 +17,14 @@ internal sealed interface MienrCommand {
 internal object MienrCommandParser {
     private val whitespace = Regex("\\s+")
     private val hourPattern = Regex("(?:[01][0-9]|2[0-3])")
+    private val mentionPrefix = Regex("^<@!?[^>]+>\\s*")
 
-    fun parse(content: String?, aliases: CommandAliases = CommandAliases()): MienrCommand? {
-        val value = content?.trim().orEmpty()
+    fun parse(
+        content: String?,
+        aliases: CommandAliases = CommandAliases(),
+        mentioned: Boolean = false,
+    ): MienrCommand? {
+        val value = content?.trim().orEmpty().let { if (mentioned) mentionPrefix.replaceFirst(it, "") else it }
         if (value.isEmpty()) return null
 
         val arguments = value.split(whitespace)

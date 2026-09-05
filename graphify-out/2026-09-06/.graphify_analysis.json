@@ -82,7 +82,6 @@
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handleget",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handlesettime",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handletoggle",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_hasbotmention",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_isadministrator",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_label",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_logfailure",
@@ -97,12 +96,12 @@
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_stop",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l60",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l60_cleanupexpiredimages",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l60_todayimage",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l65",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l65_cleanupexpiredimages",
-      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l65_todayimage",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l59",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l59_cleanupexpiredimages",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l59_todayimage",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l64",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l64_cleanupexpiredimages",
+      "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l64_todayimage",
       "stagedmediamessage",
       "textmessage"
     ],
@@ -191,6 +190,41 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_rejects_invalid_hours_and_extra_arguments_with_focused_usage"
     ],
     "4": [
+      "ref_aliases",
+      "ref_anime",
+      "ref_getanime",
+      "ref_getnews",
+      "ref_help",
+      "ref_mienr",
+      "ref_news",
+      "ref_timeanime",
+      "ref_timenews",
+      "ref_timezone",
+      "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_aliases_properties",
+      "src_main_resources_qqbot_plugin_schema_aliases_required",
+      "src_main_resources_qqbot_plugin_schema_aliases_type",
+      "src_main_resources_qqbot_plugin_schema_commands_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_commands_properties",
+      "src_main_resources_qqbot_plugin_schema_commands_required",
+      "src_main_resources_qqbot_plugin_schema_commands_type",
+      "src_main_resources_qqbot_plugin_schema_getanime_ref",
+      "src_main_resources_qqbot_plugin_schema_getnews_ref",
+      "src_main_resources_qqbot_plugin_schema_help_ref",
+      "src_main_resources_qqbot_plugin_schema_mienr_ref",
+      "src_main_resources_qqbot_plugin_schema_properties_aliases",
+      "src_main_resources_qqbot_plugin_schema_properties_commands",
+      "src_main_resources_qqbot_plugin_schema_properties_getanime",
+      "src_main_resources_qqbot_plugin_schema_properties_getnews",
+      "src_main_resources_qqbot_plugin_schema_properties_help",
+      "src_main_resources_qqbot_plugin_schema_properties_mienr",
+      "src_main_resources_qqbot_plugin_schema_properties_timeanime",
+      "src_main_resources_qqbot_plugin_schema_properties_timenews",
+      "src_main_resources_qqbot_plugin_schema_required",
+      "src_main_resources_qqbot_plugin_schema_timeanime_ref",
+      "src_main_resources_qqbot_plugin_schema_timenews_ref"
+    ],
+    "5": [
       "color",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservicetest",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservicetest_animecontentservicetest",
@@ -222,7 +256,7 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservicetest_newscontentservicetest_rejectsstalenewswithoutwritingcache",
       "t"
     ],
-    "5": [
+    "6": [
       "fontmetrics",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_datedrequest",
@@ -248,33 +282,6 @@
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredint",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredstring",
       "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_usegraphics"
-    ],
-    "6": [
-      "src_main_resources_qqbot_plugin_schema_anime_properties",
-      "src_main_resources_qqbot_plugin_schema_commandaliaslist_items",
-      "src_main_resources_qqbot_plugin_schema_defaulttime_pattern",
-      "src_main_resources_qqbot_plugin_schema_defaulttime_type",
-      "src_main_resources_qqbot_plugin_schema_disabledmessage_maxlength",
-      "src_main_resources_qqbot_plugin_schema_disabledmessage_minlength",
-      "src_main_resources_qqbot_plugin_schema_disabledmessage_type",
-      "src_main_resources_qqbot_plugin_schema_enabledgroups_items",
-      "src_main_resources_qqbot_plugin_schema_enabledgroups_maxitems",
-      "src_main_resources_qqbot_plugin_schema_enabledgroups_type",
-      "src_main_resources_qqbot_plugin_schema_failuremessage_maxlength",
-      "src_main_resources_qqbot_plugin_schema_failuremessage_minlength",
-      "src_main_resources_qqbot_plugin_schema_failuremessage_type",
-      "src_main_resources_qqbot_plugin_schema_grouptimes_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_grouptimes_type",
-      "src_main_resources_qqbot_plugin_schema_items_maxlength",
-      "src_main_resources_qqbot_plugin_schema_items_minlength",
-      "src_main_resources_qqbot_plugin_schema_items_pattern",
-      "src_main_resources_qqbot_plugin_schema_items_type",
-      "src_main_resources_qqbot_plugin_schema_news_properties",
-      "src_main_resources_qqbot_plugin_schema_properties_defaulttime",
-      "src_main_resources_qqbot_plugin_schema_properties_disabledmessage",
-      "src_main_resources_qqbot_plugin_schema_properties_enabledgroups",
-      "src_main_resources_qqbot_plugin_schema_properties_failuremessage",
-      "src_main_resources_qqbot_plugin_schema_properties_grouptimes"
     ],
     "7": [
       "groupmemberrole",
@@ -327,34 +334,23 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest_successful_date_survives_restart_and_an_older_completion_cannot_replace_it"
     ],
     "9": [
-      "src_main_resources_qqbot_plugin_schema_aliases_properties",
-      "src_main_resources_qqbot_plugin_schema_getanime_ref",
-      "src_main_resources_qqbot_plugin_schema_getnews_ref",
-      "src_main_resources_qqbot_plugin_schema_help_ref",
-      "src_main_resources_qqbot_plugin_schema_mienr_ref",
-      "src_main_resources_qqbot_plugin_schema_properties_getanime",
-      "src_main_resources_qqbot_plugin_schema_properties_getnews",
-      "src_main_resources_qqbot_plugin_schema_properties_help",
-      "src_main_resources_qqbot_plugin_schema_properties_mienr",
-      "src_main_resources_qqbot_plugin_schema_properties_timeanime",
-      "src_main_resources_qqbot_plugin_schema_properties_timenews",
-      "src_main_resources_qqbot_plugin_schema_timeanime_ref",
-      "src_main_resources_qqbot_plugin_schema_timenews_ref"
+      "src_main_resources_qqbot_plugin_schema_anime_properties",
+      "src_main_resources_qqbot_plugin_schema_defaulttime_pattern",
+      "src_main_resources_qqbot_plugin_schema_defaulttime_type",
+      "src_main_resources_qqbot_plugin_schema_enabledgroups_maxitems",
+      "src_main_resources_qqbot_plugin_schema_enabledgroups_type",
+      "src_main_resources_qqbot_plugin_schema_failuremessage_maxlength",
+      "src_main_resources_qqbot_plugin_schema_failuremessage_minlength",
+      "src_main_resources_qqbot_plugin_schema_failuremessage_type",
+      "src_main_resources_qqbot_plugin_schema_grouptimes_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_grouptimes_type",
+      "src_main_resources_qqbot_plugin_schema_news_properties",
+      "src_main_resources_qqbot_plugin_schema_properties_defaulttime",
+      "src_main_resources_qqbot_plugin_schema_properties_enabledgroups",
+      "src_main_resources_qqbot_plugin_schema_properties_failuremessage",
+      "src_main_resources_qqbot_plugin_schema_properties_grouptimes"
     ],
     "10": [
-      "ref_anime",
-      "ref_getanime",
-      "ref_getnews",
-      "ref_help",
-      "ref_mienr",
-      "ref_news",
-      "ref_timeanime",
-      "ref_timenews",
-      "ref_timezone",
-      "src_main_resources_qqbot_plugin_schema_aliases_required",
-      "src_main_resources_qqbot_plugin_schema_required"
-    ],
-    "11": [
       "readme",
       "readme_license",
       "readme_mie_news_reporter",
@@ -366,7 +362,7 @@
       "readme_构建与验证",
       "readme_配置"
     ],
-    "12": [
+    "11": [
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_jdkpluginhttpclient",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_jdkpluginhttpclient_send",
@@ -378,18 +374,7 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_generate",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_main"
     ],
-    "13": [
-      "ref_aliases",
-      "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_aliases_type",
-      "src_main_resources_qqbot_plugin_schema_commands_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_commands_properties",
-      "src_main_resources_qqbot_plugin_schema_commands_required",
-      "src_main_resources_qqbot_plugin_schema_commands_type",
-      "src_main_resources_qqbot_plugin_schema_properties_aliases",
-      "src_main_resources_qqbot_plugin_schema_properties_commands"
-    ],
-    "14": [
+    "12": [
       "src_main_resources_qqbot_plugin_schema",
       "src_main_resources_qqbot_plugin_schema_additionalproperties",
       "src_main_resources_qqbot_plugin_schema_commandaliaslist_maxitems",
@@ -400,18 +385,18 @@
       "src_main_resources_qqbot_plugin_schema_schema",
       "src_main_resources_qqbot_plugin_schema_type"
     ],
-    "15": [
-      "src_main_resources_qqbot_plugin_schema_anime_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_anime_ref",
-      "src_main_resources_qqbot_plugin_schema_anime_type",
+    "13": [
+      "src_main_resources_qqbot_plugin_schema_news_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_news_ref",
+      "src_main_resources_qqbot_plugin_schema_news_type",
       "src_main_resources_qqbot_plugin_schema_properties",
-      "src_main_resources_qqbot_plugin_schema_properties_anime",
+      "src_main_resources_qqbot_plugin_schema_properties_news",
       "src_main_resources_qqbot_plugin_schema_properties_timezone",
       "src_main_resources_qqbot_plugin_schema_timezone_maxlength",
       "src_main_resources_qqbot_plugin_schema_timezone_minlength",
       "src_main_resources_qqbot_plugin_schema_timezone_type"
     ],
-    "16": [
+    "14": [
       "ref_defaulttime",
       "ref_disabledmessage",
       "ref_enabledgroups",
@@ -420,7 +405,7 @@
       "src_main_resources_qqbot_plugin_schema_anime_required",
       "src_main_resources_qqbot_plugin_schema_news_required"
     ],
-    "17": [
+    "15": [
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_default_resource_is_valid_and_disables_every_group",
@@ -429,17 +414,31 @@
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_rejects_malformed_hours_duplicate_keys_and_unknown_time_zones",
       "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_rejects_unsafe_conflicting_and_incomplete_aliases"
     ],
-    "18": [
+    "16": [
+      "src_main_resources_qqbot_plugin_schema_commandaliaslist_items",
+      "src_main_resources_qqbot_plugin_schema_enabledgroups_items",
+      "src_main_resources_qqbot_plugin_schema_items_maxlength",
+      "src_main_resources_qqbot_plugin_schema_items_minlength",
+      "src_main_resources_qqbot_plugin_schema_items_pattern",
+      "src_main_resources_qqbot_plugin_schema_items_type"
+    ],
+    "17": [
       "gradlew",
       "gradlew__entry",
       "gradlew_die",
       "gradlew_warn"
     ],
+    "18": [
+      "src_main_resources_qqbot_plugin_schema_anime_additionalproperties",
+      "src_main_resources_qqbot_plugin_schema_anime_ref",
+      "src_main_resources_qqbot_plugin_schema_anime_type",
+      "src_main_resources_qqbot_plugin_schema_properties_anime"
+    ],
     "19": [
-      "src_main_resources_qqbot_plugin_schema_news_additionalproperties",
-      "src_main_resources_qqbot_plugin_schema_news_ref",
-      "src_main_resources_qqbot_plugin_schema_news_type",
-      "src_main_resources_qqbot_plugin_schema_properties_news"
+      "src_main_resources_qqbot_plugin_schema_disabledmessage_maxlength",
+      "src_main_resources_qqbot_plugin_schema_disabledmessage_minlength",
+      "src_main_resources_qqbot_plugin_schema_disabledmessage_type",
+      "src_main_resources_qqbot_plugin_schema_properties_disabledmessage"
     ],
     "20": [
       "build_gradle"
@@ -450,24 +449,24 @@
   },
   "cohesion": {
     "0": 0.1048265460030166,
-    "1": 0.09551020408163265,
+    "1": 0.0977891156462585,
     "2": 0.10909090909090909,
     "3": 0.10420168067226891,
-    "4": 0.11724137931034483,
-    "5": 0.16666666666666666,
-    "6": 0.1,
+    "4": 0.0625,
+    "5": 0.11724137931034483,
+    "6": 0.16666666666666666,
     "7": 0.233201581027668,
     "8": 0.13438735177865613,
-    "9": 0.15384615384615385,
+    "9": 0.1619047619047619,
     "10": 0.2,
-    "11": 0.2,
-    "12": 0.26666666666666666,
+    "11": 0.26666666666666666,
+    "12": 0.2222222222222222,
     "13": 0.2222222222222222,
-    "14": 0.2222222222222222,
-    "15": 0.2222222222222222,
-    "16": 0.47619047619047616,
-    "17": 0.47619047619047616,
-    "18": 0.8333333333333334,
+    "14": 0.47619047619047616,
+    "15": 0.47619047619047616,
+    "16": 0.4666666666666667,
+    "17": 0.8333333333333334,
+    "18": 0.5,
     "19": 0.5,
     "20": 1.0,
     "21": 1.0
@@ -476,7 +475,7 @@
     {
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin",
       "label": "MienrPlugin",
-      "degree": 31
+      "degree": 30
     },
     {
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice",
@@ -563,7 +562,7 @@
     {
       "type": "bridge_node",
       "question": "Why does `MienrPlugin` connect `MienrPlugin` to `MienrPluginTest`?",
-      "why": "High betweenness centrality (0.303) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.302) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
@@ -572,7 +571,7 @@
     },
     {
       "type": "bridge_node",
-      "question": "Why does `AnimeContentService` connect `AnimeContentService` to `MienrPlugin`, `ContentTestSupport.kt`, `OnlineImageSmoke`?",
+      "question": "Why does `AnimeContentService` connect `AnimeContentService` to `MienrPlugin`, `OnlineImageSmoke`, `ContentTestSupport.kt`?",
       "why": "High betweenness centrality (0.173) - this node is a cross-community bridge."
     },
     {

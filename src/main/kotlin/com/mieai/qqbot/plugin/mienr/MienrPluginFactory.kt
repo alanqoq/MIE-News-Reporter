@@ -1,5 +1,6 @@
 package com.mieai.qqbot.plugin.mienr
 
+import com.google.gson.JsonParser
 import com.mieai.qqbot.plugin.api.EventSubscription
 import com.mieai.qqbot.plugin.api.GroupMemberRole
 import com.mieai.qqbot.plugin.api.InboundMessage
@@ -121,7 +122,14 @@ internal class MienrPlugin(
         val inbound = event.message ?: return completedVoid()
         if (inbound.replyTarget.type != MessageTargetType.GROUP) return completedVoid()
 
-        return when (val command = MienrCommandParser.parse(inbound.content, configuration.snapshot().commands.aliases)) {
+        val mentioned = event.eventType.equals("GROUP_AT_MESSAGE_CREATE", ignoreCase = true) ||
+            event.eventType.equals("AT_MESSAGE_CREATE", ignoreCase = true) ||
+            hasBotMention(event.rawPayload)
+        return when (val command = MienrCommandParser.parse(
+            inbound.content,
+            configuration.snapshot().commands.aliases,
+            mentioned,
+        )) {
             null -> completedVoid()
             is MienrCommand.Help -> sendQuotedText(event, MIENR_HELP_TEXT, "help")
             is MienrCommand.Invalid -> sendQuotedText(event, "用法：${command.usage}", "invalid")
@@ -375,6 +383,21 @@ internal class MienrPlugin(
 
     private fun logFailure(message: String, failure: Throwable) {
         context.base.logger.error(message, failure)
+    }
+
+    private fun hasBotMention(rawPayload: String): Boolean {
+        return try {
+            val root = JsonParser.parseString(rawPayload).takeIf { it.isJsonObject }?.asJsonObject
+                ?: return false
+            val mentions = root.getAsJsonObject("d")?.getAsJsonArray("mentions") ?: return false
+            mentions.any { mention ->
+                mention.isJsonObject && mention.asJsonObject.get("is_you")?.let {
+                    it.isJsonPrimitive && it.asJsonPrimitive.isBoolean && it.asBoolean
+                } == true
+            }
+        } catch (_: RuntimeException) {
+            false
+        }
     }
 
     private fun ReportKind.label(): String = if (this == ReportKind.NEWS) "今日新闻" else "今日番剧"

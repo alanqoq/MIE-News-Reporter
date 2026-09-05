@@ -97,7 +97,21 @@ class MienrPluginTest {
             plugin.start()
 
             emit(fixture, "/mienr news", GroupMemberRole.ADMIN, "group-command")
-            emit(fixture, "/mienr news", GroupMemberRole.ADMIN, "mentioned-command", "GROUP_AT_MESSAGE_CREATE")
+            emit(
+                fixture,
+                "<@!bot-openid> /mienr news",
+                GroupMemberRole.ADMIN,
+                "mentioned-command",
+                "GROUP_MESSAGE_CREATE",
+                rawPayload = """{"d":{"mentions":[{"id":"bot-openid","is_you":true}]}}""",
+            )
+            emit(
+                fixture,
+                "<@!bot-openid> /mienr anime",
+                GroupMemberRole.ADMIN,
+                "mentioned-at-command",
+                "GROUP_AT_MESSAGE_CREATE",
+            )
             emit(fixture, "今天新闻怎么样", GroupMemberRole.ADMIN, "natural-language")
             emit(
                 fixture,
@@ -107,8 +121,9 @@ class MienrPluginTest {
                 targetType = MessageTargetType.entries.first { it != MessageTargetType.GROUP },
             )
 
-            assertEquals(2, fixture.messages.textMessages().size)
+            assertEquals(3, fixture.messages.textMessages().size)
             assertFalse(store.isEnabled(ReportKind.NEWS, GROUP_ID))
+            assertTrue(store.isEnabled(ReportKind.ANIME, GROUP_ID))
             plugin.stop()
         }
     }
@@ -212,8 +227,9 @@ class MienrPluginTest {
         messageId: String = "message-1",
         eventType: String = "GROUP_MESSAGE_CREATE",
         targetType: MessageTargetType = MessageTargetType.GROUP,
+        rawPayload: String = "{}",
     ) {
-        fixture.events.emit(event(fixture, content, role, messageId, eventType, targetType)).toCompletableFuture().join()
+        fixture.events.emit(event(fixture, content, role, messageId, eventType, targetType, rawPayload)).toCompletableFuture().join()
     }
 
     private fun event(
@@ -223,13 +239,14 @@ class MienrPluginTest {
         messageId: String,
         eventType: String = "GROUP_MESSAGE_CREATE",
         targetType: MessageTargetType = MessageTargetType.GROUP,
+        rawPayload: String = "{}",
     ): PluginEvent = PluginEvent(
         id = UUID.randomUUID(),
         botId = fixture.context.base.botId,
         environment = BotEnvironment.SANDBOX,
         eventType = eventType,
         platformEventId = "platform-${UUID.randomUUID()}",
-        rawPayload = "{}",
+        rawPayload = rawPayload,
         receivedAt = Instant.parse("2026-01-01T00:00:00Z"),
         message = InboundMessage(
             replyTarget = MessageTarget(targetType, GROUP_ID),
