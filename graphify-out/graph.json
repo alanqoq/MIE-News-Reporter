@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "build_gradle",
-      "community": 16,
+      "community": 20,
       "community_name": "build.gradle.kts",
       "norm_label": "build.gradle.kts"
     },
@@ -25,7 +25,7 @@
       },
       "_origin": "ast",
       "id": "gradlew",
-      "community": 15,
+      "community": 17,
       "community_name": "gradlew",
       "norm_label": "gradlew"
     },
@@ -40,7 +40,7 @@
       },
       "_origin": "ast",
       "id": "gradlew__entry",
-      "community": 15,
+      "community": 17,
       "community_name": "gradlew",
       "norm_label": "gradlew script"
     },
@@ -55,7 +55,7 @@
       },
       "_origin": "ast",
       "id": "gradlew_warn",
-      "community": 15,
+      "community": 17,
       "community_name": "gradlew",
       "norm_label": "warn()"
     },
@@ -70,7 +70,7 @@
       },
       "_origin": "ast",
       "id": "gradlew_die",
-      "community": 15,
+      "community": 17,
       "community_name": "gradlew",
       "norm_label": "die()"
     },
@@ -81,7 +81,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "settings_gradle",
-      "community": 17,
+      "community": 21,
       "community_name": "settings.gradle.kts",
       "norm_label": "settings.gradle.kts"
     },
@@ -92,8 +92,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_atomicfile",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "atomicfile.kt"
     },
     {
@@ -103,8 +103,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_atomicfile_writefileatomically",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "writefileatomically()"
     },
     {
@@ -114,8 +114,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_atomicfile_kt_bytearray",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "bytearray"
     },
     {
@@ -125,8 +125,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "automaticdispatchledger.kt"
     },
     {
@@ -136,8 +136,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "automaticdispatchledger"
     },
     {
@@ -147,8 +147,8 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_wassent",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".wassent()"
     },
     {
@@ -158,8 +158,8 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_marksent",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".marksent()"
     },
     {
@@ -169,8 +169,8 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_load",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".load()"
     },
     {
@@ -180,8 +180,8 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_writeatomically",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".writeatomically()"
     },
     {
@@ -191,8 +191,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledger_automaticdispatchledger_key",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".key()"
     },
     {
@@ -202,7 +202,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "mienrcommand.kt"
     },
@@ -213,7 +213,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommand",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "mienrcommand"
     },
@@ -224,7 +224,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_toggle",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "toggle"
     },
@@ -235,7 +235,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_settime",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "settime"
     },
@@ -246,7 +246,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_get",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "get"
     },
@@ -257,7 +257,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_help",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "help"
     },
@@ -268,7 +268,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_invalid",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "invalid"
     },
@@ -279,7 +279,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "mienrcommandparser"
     },
@@ -290,7 +290,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_parse",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".parse()"
     },
@@ -301,7 +301,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_parseprefixed",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".parseprefixed()"
     },
@@ -312,7 +312,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_parsecommand",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".parsecommand()"
     },
@@ -323,7 +323,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_resolvecanonical",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".resolvecanonical()"
     },
@@ -334,7 +334,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_resolvealias",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".resolvealias()"
     },
@@ -345,7 +345,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_matches",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".matches()"
     },
@@ -356,7 +356,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "commandname"
     },
@@ -367,7 +367,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_news",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "news"
     },
@@ -378,7 +378,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_time_news",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "time_news"
     },
@@ -389,7 +389,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_get_news",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "get_news"
     },
@@ -400,7 +400,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_anime",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "anime"
     },
@@ -411,7 +411,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_time_anime",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "time_anime"
     },
@@ -422,7 +422,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_get_anime",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "get_anime"
     },
@@ -433,7 +433,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_commandname_help",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "help"
     },
@@ -444,7 +444,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_withoutarguments",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".withoutarguments()"
     },
@@ -455,7 +455,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommand_mienrcommandparser_parsetime",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".parsetime()"
     },
@@ -477,7 +477,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "reportkind"
     },
@@ -488,7 +488,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind_news",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "news"
     },
@@ -499,7 +499,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_reportkind_anime",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "anime"
     },
@@ -532,7 +532,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_commandaliases",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "commandaliases"
     },
@@ -543,7 +543,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_commandaliases_immutablecopy",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".immutablecopy()"
     },
@@ -554,7 +554,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfiguration_commandaliases_entries",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".entries()"
     },
@@ -1082,7 +1082,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "mienrpluginfactory.kt"
     },
@@ -1093,8 +1093,8 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "mienrpluginfactory"
     },
     {
@@ -1104,8 +1104,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "botpluginfactory",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "botpluginfactory"
     },
     {
@@ -1115,8 +1115,8 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".create()"
     },
     {
@@ -1126,8 +1126,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "pluginruntimecontext",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "pluginruntimecontext"
     },
     {
@@ -1137,8 +1137,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "botplugin",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "botplugin"
     },
     {
@@ -1148,8 +1148,8 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l59",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "dailyimageprovider"
     },
     {
@@ -1159,8 +1159,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_kt_dailyimageprovider",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "dailyimageprovider"
     },
     {
@@ -1170,8 +1170,8 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l59_todayimage",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".todayimage()"
     },
     {
@@ -1181,8 +1181,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_kt_bytearray",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "bytearray"
     },
     {
@@ -1192,8 +1192,8 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l59_cleanupexpiredimages",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".cleanupexpiredimages()"
     },
     {
@@ -1203,8 +1203,8 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l64",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "dailyimageprovider"
     },
     {
@@ -1214,8 +1214,8 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l64_todayimage",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".todayimage()"
     },
     {
@@ -1225,8 +1225,8 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrpluginfactory_create_object_dailyimageprovider_l64_cleanupexpiredimages",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".cleanupexpiredimages()"
     },
     {
@@ -1236,8 +1236,8 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_dailyimageprovider",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": "dailyimageprovider"
     },
     {
@@ -1247,8 +1247,8 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_dailyimageprovider_todayimage",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".todayimage()"
     },
     {
@@ -1258,8 +1258,8 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_dailyimageprovider_cleanupexpiredimages",
-      "community": 9,
-      "community_name": ".create",
+      "community": 1,
+      "community_name": "MienrPlugin",
       "norm_label": ".cleanupexpiredimages()"
     },
     {
@@ -1269,7 +1269,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "mienrplugin"
     },
@@ -1280,7 +1280,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "plugintask",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "plugintask"
     },
@@ -1291,7 +1291,7 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_start",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".start()"
     },
@@ -1302,7 +1302,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handleevent",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".handleevent()"
     },
@@ -1313,7 +1313,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_kt_pluginevent",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "pluginevent"
     },
@@ -1324,7 +1324,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handletoggle",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".handletoggle()"
     },
@@ -1335,7 +1335,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "inboundmessage",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "inboundmessage"
     },
@@ -1346,7 +1346,7 @@
       "source_location": "L147",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handlesettime",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".handlesettime()"
     },
@@ -1357,7 +1357,7 @@
       "source_location": "L167",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_handleget",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".handleget()"
     },
@@ -1368,7 +1368,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_runscheduletick",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".runscheduletick()"
     },
@@ -1379,7 +1379,7 @@
       "source_location": "L205",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_dispatchautomatically",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".dispatchautomatically()"
     },
@@ -1390,7 +1390,7 @@
       "source_location": "L221",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_runreport",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".runreport()"
     },
@@ -1401,7 +1401,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "messagetarget",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "messagetarget"
     },
@@ -1412,7 +1412,7 @@
       "source_location": "L258",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_completereportfailure",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".completereportfailure()"
     },
@@ -1423,7 +1423,7 @@
       "source_location": "L277",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_sendimage",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".sendimage()"
     },
@@ -1434,7 +1434,7 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_sendfailuretext",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".sendfailuretext()"
     },
@@ -1445,7 +1445,7 @@
       "source_location": "L316",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_sendquotedtext",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".sendquotedtext()"
     },
@@ -1456,7 +1456,7 @@
       "source_location": "L321",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_sendtext",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".sendtext()"
     },
@@ -1467,7 +1467,7 @@
       "source_location": "L339",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_enqueuetext",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".enqueuetext()"
     },
@@ -1478,7 +1478,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "textmessage",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "textmessage"
     },
@@ -1489,7 +1489,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_enqueuemedia",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".enqueuemedia()"
     },
@@ -1500,7 +1500,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "stagedmediamessage",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "stagedmediamessage"
     },
@@ -1511,7 +1511,7 @@
       "source_location": "L358",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_optionsfor",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".optionsfor()"
     },
@@ -1522,7 +1522,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "messagesendoptions",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "messagesendoptions"
     },
@@ -1533,7 +1533,7 @@
       "source_location": "L362",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_isadministrator",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".isadministrator()"
     },
@@ -1544,7 +1544,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_stop",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".stop()"
     },
@@ -1555,7 +1555,7 @@
       "source_location": "L376",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_logfailure",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".logfailure()"
     },
@@ -1566,7 +1566,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin_label",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": ".label()"
     },
@@ -1577,7 +1577,7 @@
       "source_location": "L392",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_completedvoid",
-      "community": 3,
+      "community": 1,
       "community_name": "MienrPlugin",
       "norm_label": "completedvoid()"
     },
@@ -1588,7 +1588,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "animecontentservice.kt"
     },
@@ -1599,7 +1599,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "animecontentservice"
     },
@@ -1610,7 +1610,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_datedrequest",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "datedrequest"
     },
@@ -1621,7 +1621,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_font",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "font"
     },
@@ -1632,7 +1632,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_todayimage",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".todayimage()"
     },
@@ -1643,7 +1643,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_bytearray",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "bytearray"
     },
@@ -1654,7 +1654,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_cleanupexpiredimages",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".cleanupexpiredimages()"
     },
@@ -1665,7 +1665,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_todaykey",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".todaykey()"
     },
@@ -1676,7 +1676,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_startrequestsafely",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".startrequestsafely()"
     },
@@ -1687,7 +1687,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_startrequest",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".startrequest()"
     },
@@ -1698,7 +1698,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_persistifcurrentday",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".persistifcurrentday()"
     },
@@ -1709,7 +1709,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_fetchschedule",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".fetchschedule()"
     },
@@ -1720,7 +1720,7 @@
       "source_location": "L129",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_fetchcovers",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".fetchcovers()"
     },
@@ -1731,7 +1731,7 @@
       "source_location": "L147",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_send",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".send()"
     },
@@ -1742,7 +1742,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_pluginhttprequest",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "pluginhttprequest"
     },
@@ -1753,7 +1753,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_pluginhttpresponse",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "pluginhttpresponse"
     },
@@ -1764,7 +1764,7 @@
       "source_location": "L155",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_parsetimeline",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".parsetimeline()"
     },
@@ -1775,7 +1775,7 @@
       "source_location": "L235",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_decodecover",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".decodecover()"
     },
@@ -1786,7 +1786,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "uri",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "uri"
     },
@@ -1797,7 +1797,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_bufferedimage",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "bufferedimage"
     },
@@ -1808,7 +1808,7 @@
       "source_location": "L272",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_validatecoverdimensions",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".validatecoverdimensions()"
     },
@@ -1819,7 +1819,7 @@
       "source_location": "L279",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_render",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".render()"
     },
@@ -1830,7 +1830,7 @@
       "source_location": "L306",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_renderrow",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".renderrow()"
     },
@@ -1841,7 +1841,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "graphics2d",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "graphics2d"
     },
@@ -1852,7 +1852,7 @@
       "source_location": "L346",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_fittitlefont",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".fittitlefont()"
     },
@@ -1863,7 +1863,7 @@
       "source_location": "L363",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_fittimefont",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".fittimefont()"
     },
@@ -1874,7 +1874,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentservice_parsecoveruri",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".parsecoveruri()"
     },
@@ -1885,7 +1885,7 @@
       "source_location": "L393",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_datedrequest",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "datedrequest"
     },
@@ -1896,7 +1896,7 @@
       "source_location": "L436",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animescheduleitem",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "animescheduleitem"
     },
@@ -1907,7 +1907,7 @@
       "source_location": "L443",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_renderedanimeitem",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "renderedanimeitem"
     },
@@ -1918,7 +1918,7 @@
       "source_location": "L448",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_animecontentexception",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "animecontentexception"
     },
@@ -1929,7 +1929,7 @@
       "source_location": "L451",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_noanimecontentexception",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "noanimecontentexception"
     },
@@ -1940,7 +1940,7 @@
       "source_location": "L453",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_requiredanimestring",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "requiredanimestring()"
     },
@@ -1951,7 +1951,7 @@
       "source_location": "L457",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_optionalanimestring",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "optionalanimestring()"
     },
@@ -1962,7 +1962,7 @@
       "source_location": "L465",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_requiredanimeint",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "requiredanimeint()"
     },
@@ -1973,7 +1973,7 @@
       "source_location": "L477",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_decodeanimeutf8",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "decodeanimeutf8()"
     },
@@ -1984,7 +1984,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_useanimegraphics",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "useanimegraphics()"
     },
@@ -1995,7 +1995,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_animecontentservice_kt_r",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "r"
     },
@@ -2006,8 +2006,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "dailypngcache.kt"
     },
     {
@@ -2017,8 +2017,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "dailypngcache"
     },
     {
@@ -2028,8 +2028,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_read",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".read()"
     },
     {
@@ -2039,8 +2039,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_kt_bytearray",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "bytearray"
     },
     {
@@ -2050,8 +2050,8 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_deleteold",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".deleteold()"
     },
     {
@@ -2061,8 +2061,8 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_write",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".write()"
     },
     {
@@ -2072,8 +2072,8 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_target",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".target()"
     },
     {
@@ -2083,8 +2083,8 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_dailypngcache_deleteoldfiles",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".deleteoldfiles()"
     },
     {
@@ -2094,8 +2094,8 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_haspngsignature",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "haspngsignature()"
     },
     {
@@ -2105,8 +2105,8 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_dailypngcache_isreadablepng",
-      "community": 11,
-      "community_name": "DailyPngCache",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "isreadablepng()"
     },
     {
@@ -2116,7 +2116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "fontresource.kt"
     },
@@ -2127,7 +2127,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "fontresource"
     },
@@ -2138,7 +2138,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_fontresource_open",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": ".open()"
     },
@@ -2149,7 +2149,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_classpath",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "classpath()"
     },
@@ -2160,7 +2160,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_contentserviceexception",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "contentserviceexception"
     },
@@ -2171,7 +2171,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "runtimeexception",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "runtimeexception"
     },
@@ -2182,7 +2182,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_fontresource_contentrenderexception",
-      "community": 1,
+      "community": 2,
       "community_name": "AnimeContentService",
       "norm_label": "contentrenderexception"
     },
@@ -2193,7 +2193,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "newscontentservice.kt"
     },
@@ -2204,7 +2204,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "newscontentservice"
     },
@@ -2215,7 +2215,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_datedrequest",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "datedrequest"
     },
@@ -2226,7 +2226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_font",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "font"
     },
@@ -2237,7 +2237,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_todayimage",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".todayimage()"
     },
@@ -2248,7 +2248,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_bytearray",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "bytearray"
     },
@@ -2259,7 +2259,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_cleanupexpiredimages",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".cleanupexpiredimages()"
     },
@@ -2270,7 +2270,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_todaykey",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".todaykey()"
     },
@@ -2281,7 +2281,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_startrequestsafely",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".startrequestsafely()"
     },
@@ -2292,7 +2292,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_startrequest",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".startrequest()"
     },
@@ -2303,7 +2303,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_persistifcurrentday",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".persistifcurrentday()"
     },
@@ -2314,7 +2314,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_fetchnews",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".fetchnews()"
     },
@@ -2325,7 +2325,7 @@
       "source_location": "L132",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_parseresponse",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".parseresponse()"
     },
@@ -2336,7 +2336,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_pluginhttpresponse",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "pluginhttpresponse"
     },
@@ -2347,7 +2347,7 @@
       "source_location": "L181",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_render",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".render()"
     },
@@ -2358,7 +2358,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_wraptext",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".wraptext()"
     },
@@ -2369,7 +2369,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "fontmetrics",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "fontmetrics"
     },
@@ -2380,7 +2380,7 @@
       "source_location": "L272",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentservice_displaydate",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": ".displaydate()"
     },
@@ -2391,7 +2391,7 @@
       "source_location": "L278",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_datedrequest",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "datedrequest"
     },
@@ -2402,7 +2402,7 @@
       "source_location": "L306",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_newscontentexception",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "newscontentexception"
     },
@@ -2413,7 +2413,7 @@
       "source_location": "L308",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredstring",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "requiredstring()"
     },
@@ -2424,7 +2424,7 @@
       "source_location": "L316",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_requiredint",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "requiredint()"
     },
@@ -2435,7 +2435,7 @@
       "source_location": "L328",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_decodeutf8",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "decodeutf8()"
     },
@@ -2446,7 +2446,7 @@
       "source_location": "L335",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_usegraphics",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "usegraphics()"
     },
@@ -2457,7 +2457,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_content_newscontentservice_kt_r",
-      "community": 7,
+      "community": 6,
       "community_name": "NewsContentService",
       "norm_label": "r"
     },
@@ -2468,7 +2468,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "qqbot-plugin-schema.json"
     },
@@ -2479,7 +2479,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_schema",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "$schema"
     },
@@ -2490,7 +2490,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_defs",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "$defs"
     },
@@ -2501,7 +2501,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_defs_commandaliaslist",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "commandaliaslist"
     },
@@ -2512,7 +2512,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commandaliaslist_type",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "type"
     },
@@ -2523,8 +2523,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commandaliaslist_items",
-      "community": 10,
-      "community_name": "qqbot-plugin-schema.json",
+      "community": 16,
+      "community_name": "items",
       "norm_label": "items"
     },
     {
@@ -2534,8 +2534,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_items_type",
-      "community": 10,
-      "community_name": "qqbot-plugin-schema.json",
+      "community": 16,
+      "community_name": "items",
       "norm_label": "type"
     },
     {
@@ -2545,8 +2545,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_items_minlength",
-      "community": 10,
-      "community_name": "qqbot-plugin-schema.json",
+      "community": 16,
+      "community_name": "items",
       "norm_label": "minlength"
     },
     {
@@ -2556,8 +2556,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_items_maxlength",
-      "community": 10,
-      "community_name": "qqbot-plugin-schema.json",
+      "community": 16,
+      "community_name": "items",
       "norm_label": "maxlength"
     },
     {
@@ -2567,8 +2567,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_items_pattern",
-      "community": 10,
-      "community_name": "qqbot-plugin-schema.json",
+      "community": 16,
+      "community_name": "items",
       "norm_label": "pattern"
     },
     {
@@ -2578,7 +2578,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commandaliaslist_maxitems",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "maxitems"
     },
@@ -2589,7 +2589,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commandaliaslist_uniqueitems",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "uniqueitems"
     },
@@ -2600,7 +2600,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_type",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "type"
     },
@@ -2611,8 +2611,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "properties"
     },
     {
@@ -2622,8 +2622,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_timezone",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "timezone"
     },
     {
@@ -2633,8 +2633,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_timezone_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "type"
     },
     {
@@ -2644,8 +2644,8 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_timezone_minlength",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "minlength"
     },
     {
@@ -2655,8 +2655,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_timezone_maxlength",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "maxlength"
     },
     {
@@ -2666,8 +2666,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_commands",
-      "community": 2,
-      "community_name": "anime",
+      "community": 4,
+      "community_name": "properties",
       "norm_label": "commands"
     },
     {
@@ -2677,8 +2677,8 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commands_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 4,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -2688,7 +2688,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commands_properties",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "properties"
     },
@@ -2699,7 +2699,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_aliases",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "aliases"
     },
@@ -2710,7 +2710,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_aliases_type",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "type"
     },
@@ -2721,7 +2721,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_aliases_properties",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "properties"
     },
@@ -2732,7 +2732,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_mienr",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "mienr"
     },
@@ -2743,7 +2743,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_mienr_ref",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "$ref"
     },
@@ -2754,8 +2754,8 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_news",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "news"
     },
     {
@@ -2765,8 +2765,8 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_news_ref",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "$ref"
     },
     {
@@ -2776,7 +2776,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_timenews",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "timenews"
     },
@@ -2787,7 +2787,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_timenews_ref",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "$ref"
     },
@@ -2798,7 +2798,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_getnews",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "getnews"
     },
@@ -2809,7 +2809,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_getnews_ref",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "$ref"
     },
@@ -2820,7 +2820,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_anime",
-      "community": 2,
+      "community": 18,
       "community_name": "anime",
       "norm_label": "anime"
     },
@@ -2831,7 +2831,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_anime_ref",
-      "community": 2,
+      "community": 18,
       "community_name": "anime",
       "norm_label": "$ref"
     },
@@ -2842,7 +2842,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_timeanime",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "timeanime"
     },
@@ -2853,7 +2853,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_timeanime_ref",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "$ref"
     },
@@ -2864,7 +2864,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_getanime",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "getanime"
     },
@@ -2875,7 +2875,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_getanime_ref",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "$ref"
     },
@@ -2886,7 +2886,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_help",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "help"
     },
@@ -2897,7 +2897,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_help_ref",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "$ref"
     },
@@ -2908,7 +2908,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_aliases_required",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "required"
     },
@@ -2919,7 +2919,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_mienr",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "mienr"
     },
@@ -2930,7 +2930,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_news",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "news"
     },
@@ -2941,7 +2941,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_timenews",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "timenews"
     },
@@ -2952,7 +2952,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_getnews",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "getnews"
     },
@@ -2963,7 +2963,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_anime",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "anime"
     },
@@ -2974,7 +2974,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_timeanime",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "timeanime"
     },
@@ -2985,7 +2985,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_getanime",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "getanime"
     },
@@ -2996,7 +2996,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ref_help",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "help"
     },
@@ -3007,7 +3007,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_aliases_additionalproperties",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "additionalproperties"
     },
@@ -3018,8 +3018,8 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commands_required",
-      "community": 2,
-      "community_name": "anime",
+      "community": 4,
+      "community_name": "properties",
       "norm_label": "required"
     },
     {
@@ -3029,8 +3029,8 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "ref_aliases",
-      "community": 2,
-      "community_name": "anime",
+      "community": 4,
+      "community_name": "properties",
       "norm_label": "aliases"
     },
     {
@@ -3040,8 +3040,8 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_commands_additionalproperties",
-      "community": 2,
-      "community_name": "anime",
+      "community": 4,
+      "community_name": "properties",
       "norm_label": "additionalproperties"
     },
     {
@@ -3051,8 +3051,8 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_news_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "type"
     },
     {
@@ -3062,8 +3062,8 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_news_properties",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "properties"
     },
     {
@@ -3073,8 +3073,8 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_enabledgroups",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "enabledgroups"
     },
     {
@@ -3084,8 +3084,8 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_enabledgroups_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -3095,8 +3095,8 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_enabledgroups_items",
-      "community": 10,
-      "community_name": "qqbot-plugin-schema.json",
+      "community": 16,
+      "community_name": "items",
       "norm_label": "items"
     },
     {
@@ -3106,8 +3106,8 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_enabledgroups_maxitems",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "maxitems"
     },
     {
@@ -3117,8 +3117,8 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_defaulttime",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "defaulttime"
     },
     {
@@ -3128,8 +3128,8 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_defaulttime_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -3139,8 +3139,8 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_defaulttime_pattern",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "pattern"
     },
     {
@@ -3150,8 +3150,8 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_grouptimes",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "grouptimes"
     },
     {
@@ -3161,8 +3161,8 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_grouptimes_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -3172,8 +3172,8 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_grouptimes_additionalproperties",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "additionalproperties"
     },
     {
@@ -3183,8 +3183,8 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_disabledmessage",
-      "community": 2,
-      "community_name": "anime",
+      "community": 19,
+      "community_name": "disabledMessage",
       "norm_label": "disabledmessage"
     },
     {
@@ -3194,8 +3194,8 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_disabledmessage_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 19,
+      "community_name": "disabledMessage",
       "norm_label": "type"
     },
     {
@@ -3205,8 +3205,8 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_disabledmessage_minlength",
-      "community": 2,
-      "community_name": "anime",
+      "community": 19,
+      "community_name": "disabledMessage",
       "norm_label": "minlength"
     },
     {
@@ -3216,8 +3216,8 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_disabledmessage_maxlength",
-      "community": 2,
-      "community_name": "anime",
+      "community": 19,
+      "community_name": "disabledMessage",
       "norm_label": "maxlength"
     },
     {
@@ -3227,8 +3227,8 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_properties_failuremessage",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "failuremessage"
     },
     {
@@ -3238,8 +3238,8 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_failuremessage_type",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -3249,8 +3249,8 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_failuremessage_minlength",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "minlength"
     },
     {
@@ -3260,8 +3260,8 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_failuremessage_maxlength",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "maxlength"
     },
     {
@@ -3271,8 +3271,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_news_required",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "required"
     },
     {
@@ -3282,8 +3282,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "ref_enabledgroups",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "enabledgroups"
     },
     {
@@ -3293,8 +3293,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "ref_defaulttime",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "defaulttime"
     },
     {
@@ -3304,8 +3304,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "ref_grouptimes",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "grouptimes"
     },
     {
@@ -3315,8 +3315,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "ref_disabledmessage",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "disabledmessage"
     },
     {
@@ -3326,8 +3326,8 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "ref_failuremessage",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "failuremessage"
     },
     {
@@ -3337,8 +3337,8 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_news_additionalproperties",
-      "community": 2,
-      "community_name": "anime",
+      "community": 13,
+      "community_name": "news",
       "norm_label": "additionalproperties"
     },
     {
@@ -3348,7 +3348,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_anime_type",
-      "community": 2,
+      "community": 18,
       "community_name": "anime",
       "norm_label": "type"
     },
@@ -3359,8 +3359,8 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_anime_properties",
-      "community": 2,
-      "community_name": "anime",
+      "community": 9,
+      "community_name": "properties",
       "norm_label": "properties"
     },
     {
@@ -3370,8 +3370,8 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_anime_required",
-      "community": 2,
-      "community_name": "anime",
+      "community": 14,
+      "community_name": "required",
       "norm_label": "required"
     },
     {
@@ -3381,7 +3381,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_anime_additionalproperties",
-      "community": 2,
+      "community": 18,
       "community_name": "anime",
       "norm_label": "additionalproperties"
     },
@@ -3392,7 +3392,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_required",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "required"
     },
@@ -3403,7 +3403,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "ref_timezone",
-      "community": 6,
+      "community": 4,
       "community_name": "properties",
       "norm_label": "timezone"
     },
@@ -3414,7 +3414,7 @@
       "source_location": "L107",
       "_origin": "ast",
       "id": "src_main_resources_qqbot_plugin_schema_additionalproperties",
-      "community": 10,
+      "community": 12,
       "community_name": "qqbot-plugin-schema.json",
       "norm_label": "additionalproperties"
     },
@@ -3425,8 +3425,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "automaticdispatchledgertest.kt"
     },
     {
@@ -3436,8 +3436,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": "automaticdispatchledgertest"
     },
     {
@@ -3447,8 +3447,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_automaticdispatchledgertest_automaticdispatchledgertest_successful_date_survives_restart_and_an_older_completion_cannot_replace_it",
-      "community": 3,
-      "community_name": "MienrPlugin",
+      "community": 8,
+      "community_name": "AutomaticDispatchLedger",
       "norm_label": ".`successful date survives restart and an older completion cannot replace it`()"
     },
     {
@@ -3458,7 +3458,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "mienrcommandtest.kt"
     },
@@ -3469,7 +3469,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": "mienrcommandtest"
     },
@@ -3480,7 +3480,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_parses_every_supported_command",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".`parses every supported command`()"
     },
@@ -3491,7 +3491,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_rejects_invalid_hours_and_extra_arguments_with_focused_usage",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".`rejects invalid hours and extra arguments with focused usage`()"
     },
@@ -3502,7 +3502,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_parses_main_and_direct_command_aliases",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".`parses main and direct command aliases`()"
     },
@@ -3513,7 +3513,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_alias_errors_use_canonical_usage_and_unrelated_slash_commands_stay_ignored",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".`alias errors use canonical usage and unrelated slash commands stay ignored`()"
     },
@@ -3524,7 +3524,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_ignores_unrelated_text_and_routes_unknown_subcommands_to_help",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".`ignores unrelated text and routes unknown subcommands to help`()"
     },
@@ -3535,7 +3535,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrcommandtest_mienrcommandtest_help_names_every_command",
-      "community": 4,
+      "community": 3,
       "community_name": "CommandAliases",
       "norm_label": ".`help names every command`()"
     },
@@ -3546,7 +3546,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": "mienrconfigurationtest.kt"
     },
@@ -3557,7 +3557,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": "mienrconfigurationtest"
     },
@@ -3568,7 +3568,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_default_resource_is_valid_and_disables_every_group",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": ".`default resource is valid and disables every group`()"
     },
@@ -3590,7 +3590,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_legacy_configuration_without_commands_uses_empty_aliases",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": ".`legacy configuration without commands uses empty aliases`()"
     },
@@ -3601,7 +3601,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_rejects_unsafe_conflicting_and_incomplete_aliases",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": ".`rejects unsafe conflicting and incomplete aliases`()"
     },
@@ -3623,7 +3623,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_rejects_malformed_hours_duplicate_keys_and_unknown_time_zones",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": ".`rejects malformed hours duplicate keys and unknown time zones`()"
     },
@@ -3634,7 +3634,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrconfigurationtest_mienrconfigurationtest_defaultconfiguration",
-      "community": 14,
+      "community": 15,
       "community_name": "MienrConfigurationTest",
       "norm_label": ".defaultconfiguration()"
     },
@@ -3645,7 +3645,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "mienrplugintest.kt"
     },
@@ -3656,7 +3656,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "mienrplugintest"
     },
@@ -3667,7 +3667,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_service_loader_discovers_a_startable_mienr_factory",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".`service loader discovers a startable mienr factory`()"
     },
@@ -3678,7 +3678,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_only_administrators_can_toggle_and_set_group_time",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".`only administrators can toggle and set group time`()"
     },
@@ -3689,18 +3689,29 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_configured_aliases_execute_through_the_plugin_entry_point",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".`configured aliases execute through the plugin entry point`()"
+    },
+    {
+      "label": ".`group commands trigger with and without a mention but ignore other messages`()",
+      "file_type": "code",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
+      "community": 7,
+      "community_name": "MienrPluginTest",
+      "norm_label": ".`group commands trigger with and without a mention but ignore other messages`()"
     },
     {
       "label": ".`disabled get commands quote the matching configured reminder`()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L91",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".`disabled get commands quote the matching configured reminder`()"
     },
@@ -3708,10 +3719,10 @@
       "label": ".`enabled get commands stage and send the correct image with an explicit quote`()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L112",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".`enabled get commands stage and send the correct image with an explicit quote`()"
     },
@@ -3719,10 +3730,10 @@
       "label": ".`scheduler sends an enabled report once per group and hour`()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L145",
+      "source_location": "L170",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_scheduler_sends_an_enabled_report_once_per_group_and_hour",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".`scheduler sends an enabled report once per group and hour`()"
     },
@@ -3730,10 +3741,10 @@
       "label": ".fixture()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L173",
+      "source_location": "L198",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".fixture()"
     },
@@ -3744,7 +3755,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "plugintestcontext",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "plugintestcontext"
     },
@@ -3752,10 +3763,10 @@
       "label": ".configuration()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L176",
+      "source_location": "L201",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_configuration",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".configuration()"
     },
@@ -3763,10 +3774,10 @@
       "label": ".testClock()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L178",
+      "source_location": "L203",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_testclock",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".testclock()"
     },
@@ -3774,10 +3785,10 @@
       "label": ".imageProvider()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_imageprovider",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".imageprovider()"
     },
@@ -3788,7 +3799,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_kt_bytearray",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "bytearray"
     },
@@ -3799,7 +3810,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_kt_dailyimageprovider",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "dailyimageprovider"
     },
@@ -3807,10 +3818,10 @@
       "label": ".emit()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".emit()"
     },
@@ -3821,18 +3832,29 @@
       "source_location": "",
       "_origin": "ast",
       "id": "groupmemberrole",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "groupmemberrole"
+    },
+    {
+      "label": "MessageTargetType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "messagetargettype",
+      "community": 7,
+      "community_name": "MienrPluginTest",
+      "norm_label": "messagetargettype"
     },
     {
       "label": ".event()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".event()"
     },
@@ -3843,7 +3865,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_kt_pluginevent",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "pluginevent"
     },
@@ -3851,10 +3873,10 @@
       "label": ".assertThatLastText()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L210",
+      "source_location": "L244",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_assertthatlasttext",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": ".assertthatlasttext()"
     },
@@ -3862,10 +3884,10 @@
       "label": "pngBytes()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L217",
+      "source_location": "L251",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_pngbytes",
-      "community": 8,
+      "community": 7,
       "community_name": "MienrPluginTest",
       "norm_label": "pngbytes()"
     },
@@ -4206,7 +4228,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": "onlineimagesmoke.kt"
     },
@@ -4217,7 +4239,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": "onlineimagesmoke"
     },
@@ -4228,7 +4250,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_main",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": ".main()"
     },
@@ -4239,7 +4261,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_generate",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": ".generate()"
     },
@@ -4250,7 +4272,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_onlineimagesmoke_deepestcause",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": ".deepestcause()"
     },
@@ -4261,7 +4283,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_jdkpluginhttpclient",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": "jdkpluginhttpclient"
     },
@@ -4272,7 +4294,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_kt_pluginhttpclient",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": "pluginhttpclient"
     },
@@ -4283,7 +4305,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_jdkpluginhttpclient_send",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": ".send()"
     },
@@ -4294,7 +4316,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_kt_pluginhttprequest",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": "pluginhttprequest"
     },
@@ -4305,7 +4327,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_content_onlineimagesmoke_kt_pluginhttpresponse",
-      "community": 13,
+      "community": 11,
       "community_name": "OnlineImageSmoke",
       "norm_label": "pluginhttpresponse"
     },
@@ -4316,7 +4338,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "readme.md"
     },
@@ -4327,7 +4349,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_mie_news_reporter",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "mie news reporter"
     },
@@ -4338,7 +4360,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "readme_\u529f\u80fd",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u529f\u80fd"
     },
@@ -4349,7 +4371,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "readme_\u6307\u4ee4",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u6307\u4ee4"
     },
@@ -4360,7 +4382,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "readme_\u914d\u7f6e",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u914d\u7f6e"
     },
@@ -4371,7 +4393,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "readme_\u56fe\u7247\u4e0e\u6570\u636e\u6e90",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u56fe\u7247\u4e0e\u6570\u636e\u6e90"
     },
@@ -4382,7 +4404,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "readme_\u6784\u5efa\u4e0e\u9a8c\u8bc1",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u6784\u5efa\u4e0e\u9a8c\u8bc1"
     },
@@ -4393,7 +4415,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "readme_\u5b89\u88c5",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u5b89\u88c5"
     },
@@ -4404,7 +4426,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "readme_\u5728\u7ebf\u6837\u4f8b",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "\u5728\u7ebf\u6837\u4f8b"
     },
@@ -4415,7 +4437,7 @@
       "source_location": "L113",
       "_origin": "ast",
       "id": "readme_license",
-      "community": 12,
+      "community": 10,
       "community_name": "MIE News Reporter",
       "norm_label": "license"
     }
@@ -7859,7 +7881,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L96",
+      "source_location": "L121",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
@@ -7871,10 +7893,22 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L124",
+      "source_location": "L149",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
+      "target": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin"
     },
     {
@@ -7895,7 +7929,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L154",
+      "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_scheduler_sends_an_enabled_report_once_per_group_and_hour",
@@ -8159,7 +8193,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L200",
+      "source_location": "L234",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
@@ -8375,7 +8409,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L201",
+      "source_location": "L235",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
@@ -8387,7 +8421,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L161",
+      "source_location": "L186",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_scheduler_sends_an_enabled_report_once_per_group_and_hour",
@@ -12182,7 +12216,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L217",
+      "source_location": "L251",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest",
@@ -12193,7 +12227,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L210",
+      "source_location": "L244",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12204,7 +12238,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L176",
+      "source_location": "L201",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12226,7 +12260,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L91",
+      "source_location": "L116",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12237,7 +12271,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12248,7 +12282,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L112",
+      "source_location": "L137",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12259,7 +12293,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12270,7 +12304,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L173",
+      "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12281,7 +12315,18 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L205",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12303,7 +12348,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L145",
+      "source_location": "L170",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12325,7 +12370,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L178",
+      "source_location": "L203",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
@@ -12484,7 +12529,7 @@
       "source_location": "L93",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_configuration",
       "confidence_score": 1.0
     },
@@ -12496,7 +12541,7 @@
       "source_location": "L99",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
       "confidence_score": 1.0
     },
@@ -12508,7 +12553,7 @@
       "source_location": "L93",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
       "confidence_score": 1.0
     },
@@ -12520,7 +12565,7 @@
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_imageprovider",
       "confidence_score": 1.0
     },
@@ -12532,6 +12577,66 @@
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_testclock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_imageprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_testclock",
       "confidence_score": 1.0
@@ -12541,7 +12646,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L133",
+      "source_location": "L158",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
@@ -12553,7 +12658,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L119",
+      "source_location": "L144",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
@@ -12565,7 +12670,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L128",
+      "source_location": "L153",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
@@ -12577,7 +12682,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L127",
+      "source_location": "L152",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
@@ -12589,7 +12694,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L122",
+      "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
@@ -12601,7 +12706,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L151",
+      "source_location": "L176",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_scheduler_sends_an_enabled_report_once_per_group_and_hour",
@@ -12613,7 +12718,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L154",
+      "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_scheduler_sends_an_enabled_report_once_per_group_and_hour",
@@ -12625,7 +12730,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L154",
+      "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_scheduler_sends_an_enabled_report_once_per_group_and_hour",
@@ -12637,7 +12742,7 @@
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L173",
+      "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
@@ -12648,7 +12753,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L210",
+      "source_location": "L244",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
@@ -12660,7 +12765,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
@@ -12672,7 +12777,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
@@ -12684,7 +12789,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
@@ -12697,7 +12802,7 @@
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_imageprovider",
@@ -12708,7 +12813,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L217",
+      "source_location": "L251",
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
@@ -12720,7 +12825,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
@@ -12729,11 +12834,23 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L208",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
+      "target": "messagetargettype",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L184",
+      "source_location": "L216",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
@@ -12744,7 +12861,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
@@ -12754,10 +12871,22 @@
     },
     {
       "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L219",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
+      "target": "messagetargettype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
@@ -13593,5 +13722,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f4a66cc76529102058b2b5da69c5ce2008b065c4"
+  "built_at_commit": "a8c2c937c8fe9d5e55823062b8aea736e9687a60"
 }

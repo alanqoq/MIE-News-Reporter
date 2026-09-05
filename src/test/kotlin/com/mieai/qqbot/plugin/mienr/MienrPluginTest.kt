@@ -89,6 +89,31 @@ class MienrPluginTest {
     }
 
     @Test
+    fun `group commands trigger with and without a mention but ignore other messages`() {
+        val fixture = fixture(configuration())
+        fixture.use {
+            val store = MienrConfigurationStore.open(fixture.context.configurationFile, fixture.context.configuration.content)
+            val plugin = MienrPlugin(fixture.context, store, testClock(), imageProvider(), imageProvider())
+            plugin.start()
+
+            emit(fixture, "/mienr news", GroupMemberRole.ADMIN, "group-command")
+            emit(fixture, "/mienr news", GroupMemberRole.ADMIN, "mentioned-command", "GROUP_AT_MESSAGE_CREATE")
+            emit(fixture, "今天新闻怎么样", GroupMemberRole.ADMIN, "natural-language")
+            emit(
+                fixture,
+                "/mienr news",
+                GroupMemberRole.ADMIN,
+                "private-command",
+                targetType = MessageTargetType.entries.first { it != MessageTargetType.GROUP },
+            )
+
+            assertEquals(2, fixture.messages.textMessages().size)
+            assertFalse(store.isEnabled(ReportKind.NEWS, GROUP_ID))
+            plugin.stop()
+        }
+    }
+
+    @Test
     fun `disabled get commands quote the matching configured reminder`() {
         val fixture = fixture(configuration())
         fixture.use {
@@ -180,8 +205,15 @@ class MienrPluginTest {
     private fun imageProvider(bytes: ByteArray = pngBytes(0x33)): DailyImageProvider =
         DailyImageProvider { CompletableFuture.completedFuture(bytes.clone()) }
 
-    private fun emit(fixture: PluginTestContext, content: String, role: GroupMemberRole, messageId: String = "message-1") {
-        fixture.events.emit(event(fixture, content, role, messageId)).toCompletableFuture().join()
+    private fun emit(
+        fixture: PluginTestContext,
+        content: String,
+        role: GroupMemberRole,
+        messageId: String = "message-1",
+        eventType: String = "GROUP_MESSAGE_CREATE",
+        targetType: MessageTargetType = MessageTargetType.GROUP,
+    ) {
+        fixture.events.emit(event(fixture, content, role, messageId, eventType, targetType)).toCompletableFuture().join()
     }
 
     private fun event(
@@ -189,16 +221,18 @@ class MienrPluginTest {
         content: String,
         role: GroupMemberRole,
         messageId: String,
+        eventType: String = "GROUP_MESSAGE_CREATE",
+        targetType: MessageTargetType = MessageTargetType.GROUP,
     ): PluginEvent = PluginEvent(
         id = UUID.randomUUID(),
         botId = fixture.context.base.botId,
         environment = BotEnvironment.SANDBOX,
-        eventType = "GROUP_MESSAGE_CREATE",
+        eventType = eventType,
         platformEventId = "platform-${UUID.randomUUID()}",
         rawPayload = "{}",
         receivedAt = Instant.parse("2026-01-01T00:00:00Z"),
         message = InboundMessage(
-            replyTarget = MessageTarget(MessageTargetType.GROUP, GROUP_ID),
+            replyTarget = MessageTarget(targetType, GROUP_ID),
             messageId = messageId,
             eventId = "event-$messageId",
             authorId = "user-1",

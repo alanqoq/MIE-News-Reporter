@@ -2692,11 +2692,19 @@
       "_origin": "ast"
     },
     {
+      "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
+      "label": ".`group commands trigger with and without a mention but ignore other messages`()",
+      "file_type": "code",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L91",
+      "_origin": "ast"
+    },
+    {
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
       "label": ".`disabled get commands quote the matching configured reminder`()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L91",
+      "source_location": "L116",
       "_origin": "ast"
     },
     {
@@ -2704,7 +2712,7 @@
       "label": ".`enabled get commands stage and send the correct image with an explicit quote`()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L112",
+      "source_location": "L137",
       "_origin": "ast"
     },
     {
@@ -2712,7 +2720,7 @@
       "label": ".`scheduler sends an enabled report once per group and hour`()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L145",
+      "source_location": "L170",
       "_origin": "ast"
     },
     {
@@ -2720,7 +2728,7 @@
       "label": ".fixture()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L173",
+      "source_location": "L198",
       "_origin": "ast"
     },
     {
@@ -2736,7 +2744,7 @@
       "label": ".configuration()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L176",
+      "source_location": "L201",
       "_origin": "ast"
     },
     {
@@ -2744,7 +2752,7 @@
       "label": ".testClock()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L178",
+      "source_location": "L203",
       "_origin": "ast"
     },
     {
@@ -2752,7 +2760,7 @@
       "label": ".imageProvider()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "_origin": "ast"
     },
     {
@@ -2776,7 +2784,7 @@
       "label": ".emit()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "_origin": "ast"
     },
     {
@@ -2788,11 +2796,19 @@
       "_origin": "ast"
     },
     {
+      "id": "messagetargettype",
+      "label": "MessageTargetType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
       "id": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
       "label": ".event()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "_origin": "ast"
     },
     {
@@ -2808,7 +2824,7 @@
       "label": ".assertThatLastText()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L210",
+      "source_location": "L244",
       "_origin": "ast"
     },
     {
@@ -2816,7 +2832,7 @@
       "label": "pngBytes()",
       "file_type": "code",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L217",
+      "source_location": "L251",
       "_origin": "ast"
     },
     {
@@ -10224,7 +10240,7 @@
     },
     {
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
-      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
@@ -10234,11 +10250,21 @@
     },
     {
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L112",
+      "source_location": "L137",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10248,7 +10274,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L145",
+      "source_location": "L170",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10258,7 +10284,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L173",
+      "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10268,7 +10294,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L173",
+      "source_location": "L198",
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast"
@@ -10279,7 +10305,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L176",
+      "source_location": "L201",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10289,7 +10315,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L178",
+      "source_location": "L203",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10299,7 +10325,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10309,7 +10335,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast"
@@ -10320,7 +10346,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L180",
+      "source_location": "L205",
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast"
@@ -10331,7 +10357,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10341,7 +10367,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast"
@@ -10352,7 +10378,18 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L183",
+      "source_location": "L208",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
+      "target": "messagetargettype",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L208",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast"
@@ -10363,7 +10400,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10373,7 +10410,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast"
@@ -10384,7 +10421,18 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_event",
+      "target": "messagetargettype",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L219",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast"
@@ -10395,7 +10443,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L187",
+      "source_location": "L219",
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast"
@@ -10406,7 +10454,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L210",
+      "source_location": "L244",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10416,7 +10464,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L210",
+      "source_location": "L244",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast"
@@ -10427,7 +10475,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L217",
+      "source_location": "L251",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10437,7 +10485,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L217",
+      "source_location": "L251",
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast"
@@ -10575,7 +10623,7 @@
       "_origin": "ast"
     },
     {
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
       "relation": "calls",
       "context": "call",
@@ -10586,7 +10634,7 @@
       "_origin": "ast"
     },
     {
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_configuration",
       "relation": "calls",
       "context": "call",
@@ -10597,7 +10645,7 @@
       "_origin": "ast"
     },
     {
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_testclock",
       "relation": "calls",
       "context": "call",
@@ -10608,7 +10656,7 @@
       "_origin": "ast"
     },
     {
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_imageprovider",
       "relation": "calls",
       "context": "call",
@@ -10619,7 +10667,7 @@
       "_origin": "ast"
     },
     {
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
       "relation": "calls",
       "context": "call",
@@ -10630,13 +10678,68 @@
       "_origin": "ast"
     },
     {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_configuration",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_testclock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_imageprovider",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_emit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
       "target": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_fixture",
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L119",
+      "source_location": "L144",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10647,7 +10750,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L122",
+      "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10658,7 +10761,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L127",
+      "source_location": "L152",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10669,7 +10772,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L128",
+      "source_location": "L153",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10680,7 +10783,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L133",
+      "source_location": "L158",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10691,7 +10794,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L151",
+      "source_location": "L176",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10702,7 +10805,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L154",
+      "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10713,7 +10816,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L154",
+      "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10724,7 +10827,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L174",
+      "source_location": "L199",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10735,7 +10838,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L181",
+      "source_location": "L206",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10746,7 +10849,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L184",
+      "source_location": "L216",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10757,7 +10860,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L192",
+      "source_location": "L226",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11647,7 +11750,7 @@
       "_origin": "ast"
     },
     {
-      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_group_commands_trigger_with_and_without_a_mention_but_ignore_other_messages",
       "target": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin",
       "relation": "calls",
       "context": "call",
@@ -11659,6 +11762,18 @@
       "_origin": "ast"
     },
     {
+      "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_disabled_get_commands_quote_the_matching_configured_reminder",
+      "target": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "src_test_kotlin_com_mieai_qqbot_plugin_mienr_mienrplugintest_mienrplugintest_enabled_get_commands_stage_and_send_the_correct_image_with_an_explicit_quote",
       "target": "src_main_kotlin_com_mieai_qqbot_plugin_mienr_mienrpluginfactory_mienrplugin",
       "relation": "calls",
@@ -11666,7 +11781,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L124",
+      "source_location": "L149",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11678,7 +11793,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L154",
+      "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11690,7 +11805,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L161",
+      "source_location": "L186",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11702,7 +11817,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L200",
+      "source_location": "L234",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11714,7 +11829,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/test/kotlin/com/mieai/qqbot/plugin/mienr/MienrPluginTest.kt",
-      "source_location": "L201",
+      "source_location": "L235",
       "weight": 1.0,
       "_origin": "ast"
     },
